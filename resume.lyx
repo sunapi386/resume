@@ -63,6 +63,19 @@
 \begin_body
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="4">
 <features tabularvalignment="middle">
@@ -75,7 +88,7 @@
 \begin_inset Text
 
 \begin_layout Plain Layout
-Jason Sun's CV/Resume
+Jason Sun's Resume
 \end_layout
 
 \end_inset
@@ -113,7 +126,7 @@ sunapi386.ca
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -140,39 +153,39 @@ About me
 \end_layout
 
 \begin_layout Itemize
-Computer Science undergraduate at the University of Waterloo in 4B term.
+University of Waterloo Computer Science student in 4B term, with one exchange
+ term at École polytechnique fédérale de Lausanne.
 \end_layout
 
 \begin_layout Itemize
-Self motivating and have many projects/hobbies, blogging about it at
+Self motivating with many hobbies, blog at 
 \emph on
- 
+
 \begin_inset CommandInset href
 LatexCommand href
-target "sunapi386.ca/wordpress"
+target "blog.sunapi386.ca"
 
 \end_inset
 
 .
  
 \emph default
-Very passionate about software; I found out about this from the two previous
- majors I had interests in - physics (2011), business (2010).
+Very passionate about crafting software; as I found out from two previous
+ majors - physics, business.
 \end_layout
 
 \begin_layout Itemize
-Over six years of experience using Linux and UNIX utilities.
- I.e.
- xmonad tiling desktop manager, uses git daily.
+Over six years of experience using *nix: ubuntu, archlinux, osx and tools.
  
 \end_layout
 
 \begin_layout Itemize
 Experienced working in startup environments with five terms at 
 \emph on
-velocity residence incubator 
+
 \begin_inset CommandInset href
 LatexCommand href
+name "VeloCity residence"
 target "velocity.uwaterloo.ca"
 
 \end_inset
@@ -181,8 +194,8 @@ target "velocity.uwaterloo.ca"
 \end_layout
 
 \begin_layout Itemize
-Love hackathons.
- Attended MHacks, PennApps, HackMIT.
+Enjoys hackathons.
+ Attended MHacks, HackMIT, PennApps.
  Won Twilio's 
 \begin_inset Quotes eld
 \end_inset
@@ -191,7 +204,7 @@ communication prize
 \begin_inset Quotes erd
 \end_inset
 
- at PennApps Hackathon 2013 with 
+ at PennApps 2013 with 
 \emph on
 
 \begin_inset CommandInset href
@@ -201,10 +214,9 @@ target "http://www.cleverbot.com/"
 
 \end_inset
 
-.
- 
+
 \emph default
-Hooked up Cleverbot to respond to your facebook messages.
+, which was to get Cleverbot to respond to your facebook messages.
  Demo: 
 \emph on
 
@@ -218,7 +230,7 @@ target "http://youtu.be/-tEexMRq7fY"
 \end_layout
 
 \begin_layout Subsection*
-Projects
+Interesting Projects
 \end_layout
 
 \begin_layout Itemize
@@ -232,13 +244,13 @@ Multithreaded quicksort, token ring network simulation using coroutines
 \begin_inset Formula $\mu$
 \end_inset
 
-C++ (a concurrent dialect).
+C++, a concurrent C++ dialect.
  
 \end_layout
 
 \begin_layout Itemize
-Built a remote procedure call library in C++ with a partner using TCP/sockets,
- for both the client and server side.
+Built a remote procedure call library in C++ over TCP, for both the client
+ and server side.
  Implemented the go-back-N, a reliable transmission protocol, over UDP using
  Java.
  
@@ -254,13 +266,14 @@ Created exploits in C using vulnerabilities such as buffer overflow and
 
 \end_deeper
 \begin_layout Itemize
-Dotabuff-ripper: A command line tool in ruby to aid the counter-hero picking
- in 5v5 dota games.
+Dotabuff-ripper: My personal project, a tool written in ruby to aid the
+ counter-hero picking in 5v5 dota games.
  A scraper collects about hero winrates from 
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
+name "Dotabuff"
 target "dotabuff.com"
 
 \end_inset
@@ -285,11 +298,6 @@ target "http://www.neo4j.org/learn/neo4j"
 \end_layout
 
 \begin_layout Itemize
-Bitmap image compression tool in MATLAB using discrete Fourier transform.
- Also the Google PageRank algorithm to run on a small set of weblinks.
-\end_layout
-
-\begin_layout Itemize
 MIPS compiler using context-free parsing to generate machine code.
  Also designed a simple pipelined CPU in verilog, supporting 8 instructions
  for computer architecture class.
@@ -297,14 +305,51 @@ MIPS compiler using context-free parsing to generate machine code.
  MIPS compiler.
 \end_layout
 
-\begin_layout Itemize
-Created texting anonomizer which text your target upon receiving text on
- a Twilio number.
- Uses Ruby, hosted on Heroku.
-\end_layout
-
 \begin_layout Subsection*
 Experience
+\end_layout
+
+\begin_layout Itemize
+Software Engineering Intern 
+\begin_inset CommandInset href
+LatexCommand href
+name "Shutterfly Inc."
+target "https://www.shutterflyinc.com/about.html"
+
+\end_inset
+
+ in Redwood City (July 2014 - Aug 2014)
+\end_layout
+
+\begin_layout Standard
+Develop functional load tests for distributed services.
+ Speed up backend services like image uploading by making them scalable.
+\end_layout
+
+\begin_layout Itemize
+Amateur Keyboard Masher at 
+\begin_inset CommandInset href
+LatexCommand href
+name "Encircle Inc."
+target "encircleapp.com"
+
+\end_inset
+
+ in Kitchener (May 2014 - June 2014)
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset CommandInset href
+LatexCommand href
+name "VeloCity Garage"
+target "http://velocity.uwaterloo.ca/garage/"
+
+\end_inset
+
+ startup, touching android, coffee, python.
+ Worked on feature implentations in web such as and android app like sticky
+ headers.
 \end_layout
 
 \begin_layout Itemize
@@ -314,8 +359,7 @@ Undergrad Research Assistant at University of Waterloo (Jan.
 \end_layout
 
 \begin_layout Standard
-In the process of learning to develop a Linux driver for acquiring input
- from a 
+Acquiring input from a 
 \emph on
 
 \begin_inset CommandInset href
@@ -332,21 +376,21 @@ target "https://www.ni.com/mydaq/what-is/"
 
 \begin_layout Itemize
 Software Tools Developer Coop at BlackBerry Ltd.
- (Sept.
+ in Ottawa (Sept.
  2013 - Dec.
  2013)
 \end_layout
 
 \begin_layout Standard
 Contribute to internal git repository management system, building features
- upon the GitLab project using Ruby and Rails.
+ upon the GitLab project using rails.
  Developed a testing framework for testing website user interfaces, using
  the Selenium framework based in Java.
  
 \end_layout
 
 \begin_layout Itemize
-Physics Teaching Assistant at Wilfrid Laurier University (Sept.
+Physics Teaching Assistant at Wilfrid Laurier University in Waterloo (Sept.
  2011 - Apr.
  2012) 
 \end_layout
