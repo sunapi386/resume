@@ -1,8 +1,11 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage[ddmmyyyy]{datetime}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -12,13 +15,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,21 +32,32 @@
 \use_hyperref false
 \papersize default
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 1in
 \topmargin 0.5in
+\rightmargin 1in
 \bottommargin 0.5in
 \secnumdepth -1
 \tocdepth 3
@@ -78,11 +92,11 @@ thispagestyle{empty}
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="4">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -148,17 +162,72 @@ jason.sun@uwaterloo.ca
 
 \end_layout
 
+\begin_layout Standard
+Compiled 
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+currenttime
+\end_layout
+
+\end_inset
+
+
+\lang english
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 About me
 \end_layout
 
 \begin_layout Itemize
-University of Waterloo Computer Science undergraduate student in 4B term,
- with an exchange term at École Polytechnique Fédérale de Lausanne.
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "University of Waterloo Computer Science"
+target "https://cs.uwaterloo.ca/"
+
+\end_inset
+
+
+\emph default
+ undergraduate student in 4B term, including exchange term at 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "École Polytechnique Fédérale de Lausanne"
+target "https://www.epfl.ch/"
+
+\end_inset
+
+
+\emph default
+.
 \end_layout
 
 \begin_layout Itemize
-Self motivating with many hobbies, blog at 
+Self motivating with many hobbies; read 
 \emph on
 
 \begin_inset CommandInset href
@@ -170,8 +239,8 @@ target "blog.sunapi386.ca"
 .
  
 \emph default
-Very passionate about crafting software.
- I had switched from two previous majors: physics, business.
+Very passionate about crafting software, which I discovered from trying
+ two previous majors: physics, business.
 \end_layout
 
 \begin_layout Itemize
@@ -195,46 +264,41 @@ target "velocity.uwaterloo.ca"
  
 \emph default
 Enjoys security conferences and hackathons.
- Attended DEFCON, Hope #12, MHacks, HackMIT, PennApps.
- 
-\end_layout
+ Attended 
+\begin_inset CommandInset href
+LatexCommand href
+name "DEFCON"
+target "https://www.defcon.org/"
 
-\begin_layout Itemize
-Won Twilio's 
-\begin_inset Quotes eld
 \end_inset
 
-communication prize
-\begin_inset Quotes erd
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Hope #9"
+target "http://www.hopenumbernine.net/"
+
 \end_inset
 
- at PennApps 2013 with 
+, MHacks, HackMIT, PennApps.
+ Won Twilio's communication prize at PennApps 2013 with 
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Cleverbot"
-target "http://www.cleverbot.com/"
-
-\end_inset
-
-
-\emph default
-, which was to get Cleverbot to respond to your facebook messages.
- Demo: 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
+name "Marmoset"
 target "http://youtu.be/-tEexMRq7fY"
 
 \end_inset
 
 
+\emph default
+.
+ 
 \end_layout
 
 \begin_layout Subsection*
-Interesting Projects
+Projects
 \end_layout
 
 \begin_layout Itemize
@@ -243,27 +307,29 @@ Project highlights from last term:
 
 \begin_deeper
 \begin_layout Itemize
-Multithreaded quicksort, token ring network simulation using coroutines
- in 
-\begin_inset Formula $\mu$
-\end_inset
+Multithreaded quicksort, token ring network simulation in 
+\series bold
 
-C++, 
 \begin_inset CommandInset href
 LatexCommand href
-name "a concurrent C++ dialect developed at University of Waterloo"
-target "https://plg.uwaterloo.ca/usystem/uC++.html"
+name "uC++"
+target "http://plg.uwaterloo.ca/usystem/uC++.html"
 
 \end_inset
 
-.
+
+\series default
+, a dialect developed at University of Waterloo supporting concurrency.
  
 \end_layout
 
 \begin_layout Itemize
-Built a remote procedure call library in C++ over TCP, for both the client
- and server side.
- Implemented the go-back-N, a reliable transmission protocol, over UDP using
+Built a remote procedure call library in 
+\series bold
+C++
+\series default
+ over TCP, for both the client and server side.
+ Implemented the go-back-N reliable transmission protocol, over UDP using
  
 \series bold
 Java
@@ -339,7 +405,7 @@ Experience
 \end_layout
 
 \begin_layout Itemize
-Software Engineering Intern 
+Software Engineer Intern 
 \begin_inset CommandInset href
 LatexCommand href
 name "Shutterfly Inc."
