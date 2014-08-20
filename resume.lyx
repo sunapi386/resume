@@ -44,7 +44,7 @@
 \color #008000
 \end_index
 \topmargin 0.5in
-\bottommargin 1in
+\bottommargin 0.5in
 \secnumdepth -1
 \tocdepth 3
 \paragraph_separation indent
@@ -153,8 +153,8 @@ About me
 \end_layout
 
 \begin_layout Itemize
-University of Waterloo Computer Science student in 4B term, with one exchange
- term at École polytechnique fédérale de Lausanne.
+University of Waterloo Computer Science undergraduate student in 4B term,
+ with an exchange term at École Polytechnique Fédérale de Lausanne.
 \end_layout
 
 \begin_layout Itemize
@@ -170,17 +170,18 @@ target "blog.sunapi386.ca"
 .
  
 \emph default
-Very passionate about crafting software; as I found out from two previous
- majors - physics, business.
+Very passionate about crafting software.
+ I had switched from two previous majors: physics, business.
 \end_layout
 
 \begin_layout Itemize
-Over six years of experience using *nix: ubuntu, archlinux, osx and tools.
+Over six years of experience using unix: Ubuntu, Arch Linux, OS X and unix
+ utilities like grep, fdisk, etc.
  
 \end_layout
 
 \begin_layout Itemize
-Experienced working in startup environments with five terms at 
+Experienced working in startup environments, with five terms at 
 \emph on
 
 \begin_inset CommandInset href
@@ -190,13 +191,16 @@ target "velocity.uwaterloo.ca"
 
 \end_inset
 
-
+.
+ 
+\emph default
+Enjoys security conferences and hackathons.
+ Attended DEFCON, Hope #12, MHacks, HackMIT, PennApps.
+ 
 \end_layout
 
 \begin_layout Itemize
-Enjoys hackathons.
- Attended MHacks, HackMIT, PennApps.
- Won Twilio's 
+Won Twilio's 
 \begin_inset Quotes eld
 \end_inset
 
@@ -244,7 +248,15 @@ Multithreaded quicksort, token ring network simulation using coroutines
 \begin_inset Formula $\mu$
 \end_inset
 
-C++, a concurrent C++ dialect.
+C++, 
+\begin_inset CommandInset href
+LatexCommand href
+name "a concurrent C++ dialect developed at University of Waterloo"
+target "https://plg.uwaterloo.ca/usystem/uC++.html"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -252,13 +264,20 @@ C++, a concurrent C++ dialect.
 Built a remote procedure call library in C++ over TCP, for both the client
  and server side.
  Implemented the go-back-N, a reliable transmission protocol, over UDP using
- Java.
+ 
+\series bold
+Java
+\series default
+.
  
 \end_layout
 
 \begin_layout Itemize
-Created exploits in C using vulnerabilities such as buffer overflow and
- format strings.
+Created exploits in 
+\series bold
+C
+\series default
+ using vulnerabilities such as buffer overflow and format strings.
  Implemented an intrusion detection system in ruby that parses output from
  tcpdump to detect spoofed packets, malicious hosts, and worms.
  
@@ -266,8 +285,11 @@ Created exploits in C using vulnerabilities such as buffer overflow and
 
 \end_deeper
 \begin_layout Itemize
-Dotabuff-ripper: My personal project, a tool written in ruby to aid the
- counter-hero picking in 5v5 dota games.
+Dotabuff-ripper: My personal project, a tool written in 
+\series bold
+Ruby
+\series default
+ to aid the counter-hero picking in 5v5 dota games.
  A scraper collects about hero winrates from 
 \emph on
 
@@ -281,7 +303,7 @@ target "dotabuff.com"
 
 \emph default
  and inserts into a 
-\emph on
+\series bold
 
 \begin_inset CommandInset href
 LatexCommand href
@@ -290,17 +312,24 @@ target "http://www.neo4j.org/learn/neo4j"
 
 \end_inset
 
-
-\emph default
- graph db, which handles graph queries.
+ graph based database
+\series default
+.
  The tool then suggests a list of potential counter-picks.
- The front-end in rails has not been completed.
+ 
 \end_layout
 
 \begin_layout Itemize
-MIPS compiler using context-free parsing to generate machine code.
- Also designed a simple pipelined CPU in verilog, supporting 8 instructions
- for computer architecture class.
+MIPS compiler using context-free parsing to generate 
+\series bold
+MIPS assembly
+\series default
+ code.
+ Also designed a simple pipelined CPU written in 
+\series bold
+Verilog
+\series default
+, supporting 8 instructions for computer architecture class.
  Theoretically this is sufficient to run my machine code produced by my
  MIPS compiler.
 \end_layout
@@ -318,12 +347,21 @@ target "https://www.shutterflyinc.com/about.html"
 
 \end_inset
 
- in Redwood City (July 2014 - Aug 2014)
+ in Silicon Valley, California (July 2014 - Aug 2014)
 \end_layout
 
 \begin_layout Standard
 Develop functional load tests for distributed services.
- Speed up backend services like image uploading by making them scalable.
+ Design and implemented a distributed key value storage service, using technolog
+y like 
+\series bold
+Jersey
+\series default
+ RESTful Web Services framework and Apache 
+\series bold
+Cassandra
+\series default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -335,7 +373,7 @@ target "encircleapp.com"
 
 \end_inset
 
- in Kitchener (May 2014 - June 2014)
+ in Kitchener, Ontario (May 2014 - June 2014)
 \end_layout
 
 \begin_layout Standard
@@ -347,7 +385,19 @@ target "http://velocity.uwaterloo.ca/garage/"
 
 \end_inset
 
- startup, touching android, coffee, python.
+ startup, touching 
+\series bold
+android
+\series default
+, 
+\series bold
+coffee
+\series default
+, 
+\series bold
+python
+\series default
+.
  Worked on feature implentations in web such as and android app like sticky
  headers.
 \end_layout
@@ -359,7 +409,7 @@ Undergrad Research Assistant at University of Waterloo (Jan.
 \end_layout
 
 \begin_layout Standard
-Acquiring input from a 
+Developed process for acquiring input from a 
 \emph on
 
 \begin_inset CommandInset href
@@ -371,21 +421,32 @@ target "https://www.ni.com/mydaq/what-is/"
 
 
 \emph default
-, a low-cost data acquisition device (DAQ).
+, a low-cost data acquisition device, and data analysis using 
+\series bold
+Matlab
+\series default
+.
 \end_layout
 
 \begin_layout Itemize
-Software Tools Developer Coop at BlackBerry Ltd.
- in Ottawa (Sept.
+Software Tools Developer Intern at BlackBerry Ltd.
+ in Ottawa, Ontario (Sept.
  2013 - Dec.
  2013)
 \end_layout
 
 \begin_layout Standard
-Contribute to internal git repository management system, building features
- upon the GitLab project using rails.
+Built additional features to the GitLab open source project using 
+\series bold
+Ruby on Rails
+\series default
+.
  Developed a testing framework for testing website user interfaces, using
- the Selenium framework based in Java.
+ the 
+\series bold
+Selenium
+\series default
+ framework based in Java.
  
 \end_layout
 
@@ -396,9 +457,12 @@ Physics Teaching Assistant at Wilfrid Laurier University in Waterloo (Sept.
 \end_layout
 
 \begin_layout Standard
-Developed a spectrometer reading program in python, using the pySerial API,
- and automate queries over serial port - previously you had to enter wavelength
- you want to sample by hand.
+Developed a spectrometer reading program in python, using the 
+\series bold
+pySerial
+\series default
+ library, and automate queries over serial port - previously you had to
+ punch numberson machine.
 \end_layout
 
 \end_body
