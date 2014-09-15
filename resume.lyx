@@ -163,23 +163,7 @@ jason.sun@uwaterloo.ca
 \end_layout
 
 \begin_layout Standard
-Compiled 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-currenttime
-\end_layout
-
-\end_inset
-
-
-\lang english
- 
+Compiled on 
 \begin_inset ERT
 status open
 
@@ -192,7 +176,7 @@ today
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -216,7 +200,7 @@ target "https://cs.uwaterloo.ca/"
 
 \begin_inset CommandInset href
 LatexCommand href
-name "École Polytechnique Fédérale de Lausanne"
+name "Swiss Federal Institute of Technology in Lausanne"
 target "https://www.epfl.ch/"
 
 \end_inset
