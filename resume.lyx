@@ -188,20 +188,20 @@ About me
 \emph on
 \begin_inset CommandInset href
 LatexCommand href
-name "University of Waterloo Computer Science"
+name "University of Waterloo"
 target "https://cs.uwaterloo.ca/"
 
 \end_inset
 
 
 \emph default
- undergraduate student in 4B term, including exchange term at 
+ undergraduate in Computer Science 4B term, with an exchange at 
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
 name "Swiss Federal Institute of Technology in Lausanne"
-target "https://www.epfl.ch/"
+target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
 
 \end_inset
 
@@ -211,7 +211,7 @@ target "https://www.epfl.ch/"
 \end_layout
 
 \begin_layout Itemize
-Self motivating with many hobbies; read 
+Very driven and motivated with many hobbies; read 
 \emph on
 
 \begin_inset CommandInset href
@@ -223,13 +223,13 @@ target "blog.sunapi386.ca"
 .
  
 \emph default
-Very passionate about crafting software, which I discovered from trying
- two previous majors: physics, business.
+Passionate about crafting software, which I discovered from trying two previous
+ majors: physics, business.
 \end_layout
 
 \begin_layout Itemize
-Over six years of experience using unix: Ubuntu, Arch Linux, OS X and unix
- utilities like grep, fdisk, etc.
+Over eight years of experience using unix: Ubuntu, Arch Linux, OS X and
+ unix utilities like grep, fdisk, etc.
  
 \end_layout
 
@@ -247,11 +247,11 @@ target "velocity.uwaterloo.ca"
 .
  
 \emph default
-Enjoys security conferences and hackathons.
+Enjoys coding for fun.
  Attended 
 \begin_inset CommandInset href
 LatexCommand href
-name "DEFCON"
+name "DEFCON 22"
 target "https://www.defcon.org/"
 
 \end_inset
@@ -259,7 +259,7 @@ target "https://www.defcon.org/"
 , 
 \begin_inset CommandInset href
 LatexCommand href
-name "Hope #9"
+name "2600 Hope #9"
 target "http://www.hopenumbernine.net/"
 
 \end_inset
@@ -397,7 +397,7 @@ target "https://www.shutterflyinc.com/about.html"
 
 \end_inset
 
- in Silicon Valley, California (July 2014 - Aug 2014)
+ in Silicon Valley, California
 \end_layout
 
 \begin_layout Standard
@@ -415,7 +415,7 @@ Cassandra
 \end_layout
 
 \begin_layout Itemize
-Amateur Keyboard Masher at 
+Code Monkey at 
 \begin_inset CommandInset href
 LatexCommand href
 name "Encircle Inc."
@@ -423,19 +423,19 @@ target "encircleapp.com"
 
 \end_inset
 
- in Kitchener, Ontario (May 2014 - June 2014)
+ in Kitchener, Ontario
 \end_layout
 
 \begin_layout Standard
 A 
 \begin_inset CommandInset href
 LatexCommand href
-name "VeloCity Garage"
+name "velocity garage"
 target "http://velocity.uwaterloo.ca/garage/"
 
 \end_inset
 
- startup, touching 
+ startup, working on 
 \series bold
 android
 \series default
@@ -453,9 +453,7 @@ python
 \end_layout
 
 \begin_layout Itemize
-Undergrad Research Assistant at University of Waterloo (Jan.
- 2014 - Apr.
- 2014)
+Undergrad Research Assistant at University of Waterloo
 \end_layout
 
 \begin_layout Standard
@@ -480,9 +478,7 @@ Matlab
 
 \begin_layout Itemize
 Software Tools Developer Intern at BlackBerry Ltd.
- in Ottawa, Ontario (Sept.
- 2013 - Dec.
- 2013)
+ in Ottawa, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -501,9 +497,7 @@ Selenium
 \end_layout
 
 \begin_layout Itemize
-Physics Teaching Assistant at Wilfrid Laurier University in Waterloo (Sept.
- 2011 - Apr.
- 2012) 
+Physics Teaching Assistant at Wilfrid Laurier University in Waterloo
 \end_layout
 
 \begin_layout Standard
@@ -512,7 +506,7 @@ Developed a spectrometer reading program in python, using the
 pySerial
 \series default
  library, and automate queries over serial port - previously you had to
- punch numberson machine.
+ punch numbers on the machine.
 \end_layout
 
 \end_body
