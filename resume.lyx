@@ -96,9 +96,9 @@ thispagestyle{empty}
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -107,16 +107,16 @@ Jason Sun's Resume
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-+1 (519) 500 - 2969
++41 077 452 00 66
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -195,12 +195,12 @@ target "https://cs.uwaterloo.ca/"
 
 
 \emph default
- undergraduate in Computer Science 4B term, with an exchange at 
+ undergraduate in Computer Science 4B term, exchange student at
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Swiss Federal Institute of Technology in Lausanne"
+name "Swiss Federal Institute of Technology (EPFL) at Lausanne"
 target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
 
 \end_inset
@@ -211,7 +211,7 @@ target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9ral
 \end_layout
 
 \begin_layout Itemize
-Very driven and motivated with many hobbies; read 
+Very driven and motivated with many hobbies (see my blogs at
 \emph on
 
 \begin_inset CommandInset href
@@ -220,6 +220,10 @@ target "blog.sunapi386.ca"
 
 \end_inset
 
+
+\emph default
+)
+\emph on
 .
  
 \emph default
@@ -235,20 +239,22 @@ Over eight years of experience using unix: Ubuntu, Arch Linux, OS X and
 
 \begin_layout Itemize
 Experienced working in startup environments, with five terms at 
-\emph on
-
 \begin_inset CommandInset href
 LatexCommand href
-name "VeloCity residence"
+name "Velocity residence"
 target "velocity.uwaterloo.ca"
 
 \end_inset
 
+
+\emph on
 .
  
 \emph default
 Enjoys coding for fun.
  Attended 
+\emph on
+
 \begin_inset CommandInset href
 LatexCommand href
 name "DEFCON 22"
@@ -256,7 +262,11 @@ target "https://www.defcon.org/"
 
 \end_inset
 
+
+\emph default
 , 
+\emph on
+
 \begin_inset CommandInset href
 LatexCommand href
 name "2600 Hope #9"
@@ -264,6 +274,8 @@ target "http://www.hopenumbernine.net/"
 
 \end_inset
 
+
+\emph default
 , MHacks, HackMIT, PennApps.
  Won Twilio's communication prize at PennApps 2013 with 
 \emph on
@@ -293,6 +305,7 @@ Project highlights from last term:
 \begin_layout Itemize
 Multithreaded quicksort, token ring network simulation in 
 \series bold
+\emph on
 
 \begin_inset CommandInset href
 LatexCommand href
@@ -303,6 +316,7 @@ target "http://plg.uwaterloo.ca/usystem/uC++.html"
 
 
 \series default
+\emph default
 , a dialect developed at University of Waterloo supporting concurrency.
  
 \end_layout
@@ -341,8 +355,6 @@ Ruby
 \series default
  to aid the counter-hero picking in 5v5 dota games.
  A scraper collects about hero winrates from 
-\emph on
-
 \begin_inset CommandInset href
 LatexCommand href
 name "Dotabuff"
@@ -350,10 +362,9 @@ target "dotabuff.com"
 
 \end_inset
 
-
-\emph default
  and inserts into a 
 \series bold
+\emph on
 
 \begin_inset CommandInset href
 LatexCommand href
@@ -362,6 +373,8 @@ target "http://www.neo4j.org/learn/neo4j"
 
 \end_inset
 
+
+\emph default
  graph based database
 \series default
 .
@@ -390,6 +403,8 @@ Experience
 
 \begin_layout Itemize
 Software Engineer Intern 
+\emph on
+
 \begin_inset CommandInset href
 LatexCommand href
 name "Shutterfly Inc."
@@ -397,7 +412,9 @@ target "https://www.shutterflyinc.com/about.html"
 
 \end_inset
 
- in Silicon Valley, California
+
+\emph default
+ at Redwood City, California (Silicon Valley)
 \end_layout
 
 \begin_layout Standard
@@ -416,6 +433,8 @@ Cassandra
 
 \begin_layout Itemize
 Code Monkey at 
+\emph on
+
 \begin_inset CommandInset href
 LatexCommand href
 name "Encircle Inc."
@@ -423,19 +442,25 @@ target "encircleapp.com"
 
 \end_inset
 
- in Kitchener, Ontario
+
+\emph default
+ at Kitchener, Ontario
 \end_layout
 
 \begin_layout Standard
-A 
+A startup in the
+\emph on
+
 \begin_inset CommandInset href
 LatexCommand href
-name "velocity garage"
+name "Velocity Garage"
 target "http://velocity.uwaterloo.ca/garage/"
 
 \end_inset
 
- startup, working on 
+
+\emph default
+, working on
 \series bold
 android
 \series default
@@ -458,8 +483,6 @@ Undergrad Research Assistant at University of Waterloo
 
 \begin_layout Standard
 Developed process for acquiring input from a 
-\emph on
-
 \begin_inset CommandInset href
 LatexCommand href
 name "NI myDAQ"
@@ -467,8 +490,6 @@ target "https://www.ni.com/mydaq/what-is/"
 
 \end_inset
 
-
-\emph default
 , a low-cost data acquisition device, and data analysis using 
 \series bold
 Matlab
@@ -478,7 +499,7 @@ Matlab
 
 \begin_layout Itemize
 Software Tools Developer Intern at BlackBerry Ltd.
- in Ottawa, Ontario
+ at Ottawa, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -497,7 +518,19 @@ Selenium
 \end_layout
 
 \begin_layout Itemize
-Physics Teaching Assistant at Wilfrid Laurier University in Waterloo
+Physics Teaching Assistant at
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Wilfrid Laurier University"
+target "http://www.wlu.ca/"
+
+\end_inset
+
+
+\emph default
+ at Waterloo
 \end_layout
 
 \begin_layout Standard
