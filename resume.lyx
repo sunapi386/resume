@@ -197,7 +197,7 @@ target "https://cs.uwaterloo.ca/"
 \emph default
  undergraduate in Computer Science 4B term, exchange student at
 \emph on
-
+ 
 \begin_inset CommandInset href
 LatexCommand href
 name "Swiss Federal Institute of Technology (EPFL) at Lausanne"
@@ -276,8 +276,24 @@ target "http://www.hopenumbernine.net/"
 
 
 \emph default
-, MHacks, HackMIT, PennApps.
- Won Twilio's communication prize at PennApps 2013 with 
+, MHacks, HackMIT, PennApps, HackZurich 2014.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Twilio's Communication Award at 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "PennApps 2013"
+target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
+
+\end_inset
+
+
+\emph default
+, University of Pennsylvania, with 
 \emph on
 
 \begin_inset CommandInset href
@@ -293,6 +309,35 @@ target "http://youtu.be/-tEexMRq7fY"
  
 \end_layout
 
+\begin_layout Itemize
+Tamedia Digital Award at 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "HackZurich 2014"
+target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
+
+\end_inset
+
+
+\emph default
+, ETH Zürich, with 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name ".GIFMeIt"
+target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
+
+\end_inset
+
+
+\emph default
+.
+\end_layout
+
+\end_deeper
 \begin_layout Subsection*
 Projects
 \end_layout
@@ -462,7 +507,7 @@ target "http://velocity.uwaterloo.ca/garage/"
 \emph default
 , working on
 \series bold
-android
+ android
 \series default
 , 
 \series bold
