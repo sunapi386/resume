@@ -188,7 +188,7 @@ target "https://cs.uwaterloo.ca/"
  
 \begin_inset CommandInset href
 LatexCommand href
-name "Swiss Federal Institute of Technology (EPFL) at Lausanne"
+name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
 target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
 
 \end_inset
@@ -211,22 +211,32 @@ target "blog.sunapi386.ca"
 
 
 \emph default
-), especially into computer science, which I discovered from trying two
- previous majors: physics, business.
+).
+ Especially interested computer science, which was discovered from trying
+ two previous majors during undergrad.
+ Physics, and before that, business.
 \end_layout
 
 \begin_layout Itemize
-Over eight years of experience using unix: Ubuntu, Arch Linux, OS X and
- unix utilities like grep, fdisk, etc.
+Over eight years of experience using unix: Ubuntu, Arch Linux, OS X, and
+ unix utilities like grep, less, find, fdisk, and etc.
  
 \end_layout
 
 \begin_layout Itemize
-Experienced working in startup environments, with five terms at 
+Experienced working in startup environments, at 
 \begin_inset CommandInset href
 LatexCommand href
-name "Velocity residence"
-target "velocity.uwaterloo.ca"
+name "Velocity Residence"
+target "http://velocity.uwaterloo.ca/residence/"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Velocity Garage"
+target "http://velocity.uwaterloo.ca/garage/"
 
 \end_inset
 
@@ -235,12 +245,12 @@ target "velocity.uwaterloo.ca"
 .
  
 \emph default
-Enjoys tech events, like 
+Enjoys technology conventions; ones I had attended were: 
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
-name "DEFCON 22"
+name "DEFCON (#22)"
 target "https://www.defcon.org/"
 
 \end_inset
@@ -252,15 +262,14 @@ target "https://www.defcon.org/"
 
 \begin_inset CommandInset href
 LatexCommand href
-name "2600 Hope #9"
+name "2600 Hope Number 9"
 target "http://www.hopenumbernine.net/"
 
 \end_inset
 
 
 \emph default
-, MHacks, HackMIT, PennApps, HackZurich 2014.
- 
+, PennApps 2013, MHacks 2014, HackMIT 2014, and HackZurich 2014.
 \end_layout
 
 \begin_layout Itemize
@@ -268,34 +277,6 @@ Won hackathon prizes at:
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "HackZurich 2014"
-target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
-
-\end_inset
-
-
-\emph default
- at ETH Zürich, received Tamedia Digital Award (all-inclusive team trip
- to visit startups in Berlin, Germany) with 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name ".GIFMeIt"
-target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
-
-\end_inset
-
-
-\emph default
-: An iOS app that lets a user easily capture and share GIF images.
-\end_layout
-
 \begin_layout Itemize
 
 \emph on
@@ -324,27 +305,56 @@ target "http://youtu.be/-tEexMRq7fY"
 : A chatbot to respond to your chosen Facebook friends without them knowing.
 \end_layout
 
+\begin_layout Itemize
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "HackZurich 2014"
+target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
+
+\end_inset
+
+
+\emph default
+ at ETH Zürich, received Tamedia Digital Award (all-inclusive team trip
+ to visit startups in Berlin, Germany) with 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name ".GIFMeIt"
+target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
+
+\end_inset
+
+
+\emph default
+: An iOS app that lets a user easily capture and share GIF images.
+\end_layout
+
 \end_deeper
 \begin_layout Subsection*
 Notable and Interesting Projects
 \end_layout
 
 \begin_layout Itemize
-Advanced Algorithms class (EPFL CS 450): A first graduate course in algorithms,
+Advanced Algorithms class (EPFL CS 450): A graduate course in algorithms,
  learned theoritical techniques and their applications to solve problems.
  Interesting techniques such as network flow, randomization, dynamic programming.
 \end_layout
 
 \begin_layout Itemize
-Intelligent Agent class (EPFL CS 430): Developed 5 agents, each using different
- strategies to pickup and deliver a parcel in a simulated environment: reactive,
- deliberative, centralized, decentralized, auctioning.
+Intelligent Agent class (EPFL CS 430): Developed intelligent agents to pickup
+ and deliver parcels in a simulated environment, with intelligent behaviours:
+ reactive, deliberative, centralized, decentralized, and auctioning.
  
 \end_layout
 
 \begin_layout Itemize
-Concurrency class (CS 343): Multithreaded quicksort, token ring network
- simulation in 
+Concurrency class (CS 343): Multithreaded quicksort, implementation of well
+ known concurrency control mechanisms, such as monitors.
+ Language is in 
 \series bold
 \emph on
 
@@ -358,7 +368,7 @@ target "http://plg.uwaterloo.ca/usystem/uC++.html"
 
 \series default
 \emph default
-, a dialect developed at University of Waterloo supporting concurrency.
+, a concurrent dialect of C++, developed at University of Waterloo.
  
 \end_layout
 
@@ -368,7 +378,7 @@ Distributed Systems class (CS 454): Built a remote procedure call library
 \series bold
 C++
 \series default
- over TCP, for both the client and server side.
+ on top of TCP, both client and server side.
  Implemented the go-back-N reliable transmission protocol, over UDP using
  
 \series bold
@@ -383,31 +393,34 @@ Computer Security class (CS 458): Created exploits in
 \series bold
 C
 \series default
- using vulnerabilities such as buffer overflow and format strings.
- Implemented an intrusion detection system in ruby that parses output from
- tcpdump to detect spoofed packets, malicious hosts, and worms.
+ using techniques such as buffer overflow, and format strings.
+ Implemented an intrusion detection program which parses output from tcpdump
+ to detect spoofed packets, malicious hosts, and worms.
  
 \end_layout
 
 \begin_layout Itemize
-Compilers class (CS 251): MIPS compiler using context-free parsing to generate
- 
+Compilers class (CS 251): Built a MIPS compiler in C++, parsing a subset
+ of C keywords and generating 
 \series bold
 MIPS assembly
 \series default
  code.
- Also designed a simple pipelined CPU written in 
+ 
+\end_layout
+
+\begin_layout Itemize
+Computer Architecture class (CS 450): Designed a pipelined CPU in 
 \series bold
 Verilog
 \series default
 , supporting 8 instructions for computer architecture class.
- Theoretically this is sufficient to run my machine code produced by my
- MIPS compiler.
+ This is sufficient to run machine code produced by the MIPS compiler, from
+ the CS 251 compilers class.
 \end_layout
 
 \begin_layout Itemize
-Personal project: One of the larger scale is Dotabuff-ripper.
- Written in 
+Personal project: Dotabuff-ripper is a tool written in 
 \series bold
 Ruby
 \series default
@@ -437,7 +450,11 @@ target "http://www.neo4j.org/learn/neo4j"
 \series default
 .
  The tool then suggests a list of potential counter-picks.
- Meant to have a web interface, but the web component was never finished.
+ Meant to have a web interface, but the web component (written with 
+\series bold
+Ruby on Rails
+\series default
+) is only partially completed.
 \end_layout
 
 \begin_layout Subsection*
@@ -520,11 +537,11 @@ python
 \end_layout
 
 \begin_layout Itemize
-Undergrad Research Assistant at University of Waterloo, in Waterloo, Ontario
+Undergrad Research Assistant at University of Waterloo in Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
-Working with professor and experimented acquiring input from a 
+Working with professor and experimented acquiring sound input from a 
 \begin_inset CommandInset href
 LatexCommand href
 name "NI myDAQ"
@@ -532,7 +549,8 @@ target "https://www.ni.com/mydaq/what-is/"
 
 \end_inset
 
-, a low-cost data acquisition device, and some data analysis using 
+, a low-cost data acquisition device (DAQ), and performing data analysis
+ on it using 
 \series bold
 Matlab
 \series default
