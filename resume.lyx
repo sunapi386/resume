@@ -282,34 +282,6 @@ Won hackathon prizes at:
 \emph on
 \begin_inset CommandInset href
 LatexCommand href
-name "PennApps 2013"
-target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
-
-\end_inset
-
-
-\emph default
- at University of Pennsylvania, received Twilio's Communication Award ($500)
- with 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Marmoset"
-target "http://youtu.be/-tEexMRq7fY"
-
-\end_inset
-
-
-\emph default
-: A chatbot to respond to your chosen Facebook friends without them knowing.
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
 name "HackZurich 2014"
 target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
 
@@ -333,132 +305,37 @@ target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
 : An iOS app that lets a user easily capture and share GIF images.
 \end_layout
 
+\begin_layout Itemize
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "PennApps 2013"
+target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
+
+\end_inset
+
+
+\emph default
+ at University of Pennsylvania, received Twilio's Communication Award ($500)
+ with 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Marmoset"
+target "http://youtu.be/-tEexMRq7fY"
+
+\end_inset
+
+
+\emph default
+: A chatbot to respond to your chosen Facebook friends without them knowing.
+\end_layout
+
 \end_deeper
 \begin_layout Subsection*
-Notable and Interesting Projects
-\end_layout
-
-\begin_layout Itemize
-Advanced Algorithms class (EPFL CS 450): A graduate course in algorithms,
- learned theoritical techniques and their applications to solve problems.
- Interesting techniques such as network flow, randomization, dynamic programming.
-\end_layout
-
-\begin_layout Itemize
-Intelligent Agent class (EPFL CS 430): Developed intelligent agents to pickup
- and deliver parcels in a simulated environment, with intelligent behaviours:
- reactive, deliberative, centralized, decentralized, and auctioning.
- 
-\end_layout
-
-\begin_layout Itemize
-Concurrency class (CS 343): Multithreaded quicksort, implementation of well
- known concurrency control mechanisms, such as monitors.
- Language is in 
-\series bold
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "uC++"
-target "http://plg.uwaterloo.ca/usystem/uC++.html"
-
-\end_inset
-
-
-\series default
-\emph default
-, a concurrent dialect of C++, developed at University of Waterloo.
- 
-\end_layout
-
-\begin_layout Itemize
-Distributed Systems class (CS 454): Built a remote procedure call library
- in 
-\series bold
-C++
-\series default
- on top of TCP, both client and server side.
- Implemented the go-back-N reliable transmission protocol, over UDP using
- 
-\series bold
-Java
-\series default
-.
- 
-\end_layout
-
-\begin_layout Itemize
-Computer Security class (CS 458): Created exploits in 
-\series bold
-C
-\series default
- using techniques such as buffer overflow, and format strings.
- Implemented an intrusion detection program which parses output from tcpdump
- to detect spoofed packets, malicious hosts, and worms.
- 
-\end_layout
-
-\begin_layout Itemize
-Compilers class (CS 251): Built a MIPS compiler in C++, parsing a subset
- of C keywords and generating 
-\series bold
-MIPS assembly
-\series default
- code.
- 
-\end_layout
-
-\begin_layout Itemize
-Computer Architecture class (CS 450): Designed a pipelined CPU in 
-\series bold
-Verilog
-\series default
-, supporting 8 instructions for computer architecture class.
- This is sufficient to run machine code produced by the MIPS compiler, from
- the CS 251 compilers class.
-\end_layout
-
-\begin_layout Itemize
-Personal project: Dotabuff-ripper is a tool written in 
-\series bold
-Ruby
-\series default
- to aid the counter-hero picking in 5v5 dota games.
- A scraper collects about hero winrates from 
-\begin_inset CommandInset href
-LatexCommand href
-name "Dotabuff"
-target "dotabuff.com"
-
-\end_inset
-
- and inserts into a 
-\series bold
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Neo4j"
-target "http://www.neo4j.org/learn/neo4j"
-
-\end_inset
-
-
-\emph default
- graph based database
-\series default
-.
- The tool then suggests a list of potential counter-picks.
- Meant to have a web interface, but the web component (written with 
-\series bold
-Ruby on Rails
-\series default
-) is only partially completed.
-\end_layout
-
-\begin_layout Subsection*
-Experiences
+Work Experiences
 \end_layout
 
 \begin_layout Itemize
@@ -599,6 +476,129 @@ pySerial
 \series default
  library, and automate queries over serial port - previously you had to
  punch numbers on the machine.
+\end_layout
+
+\begin_layout Subsection*
+Interesting Projects
+\end_layout
+
+\begin_layout Itemize
+Advanced Algorithms class (EPFL CS 450): A graduate course in algorithms,
+ learned theoritical techniques and their applications to solve problems.
+ Interesting techniques such as network flow, randomization, dynamic programming.
+\end_layout
+
+\begin_layout Itemize
+Intelligent Agent class (EPFL CS 430): Developed intelligent agents to pickup
+ and deliver parcels in a simulated environment, with intelligent behaviours:
+ reactive, deliberative, centralized, decentralized, and auctioning.
+ 
+\end_layout
+
+\begin_layout Itemize
+Concurrency class (CS 343): Multithreaded quicksort, implementation of well
+ known concurrency control mechanisms, such as monitors.
+ Language is in 
+\series bold
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "uC++"
+target "http://plg.uwaterloo.ca/usystem/uC++.html"
+
+\end_inset
+
+
+\series default
+\emph default
+, a concurrent dialect of C++, developed at University of Waterloo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Distributed Systems class (CS 454): Built a remote procedure call library
+ in 
+\series bold
+C++
+\series default
+ on top of TCP, both client and server side.
+ Implemented the go-back-N reliable transmission protocol, over UDP using
+ 
+\series bold
+Java
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Computer Security class (CS 458): Created exploits in 
+\series bold
+C
+\series default
+ using techniques such as buffer overflow, and format strings.
+ Implemented an intrusion detection program which parses output from tcpdump
+ to detect spoofed packets, malicious hosts, and worms.
+ 
+\end_layout
+
+\begin_layout Itemize
+Compilers class (CS 251): Built a MIPS compiler in C++, parsing a subset
+ of C keywords and generating 
+\series bold
+MIPS assembly
+\series default
+ code.
+ 
+\end_layout
+
+\begin_layout Itemize
+Computer Architecture class (CS 450): Designed a pipelined CPU in 
+\series bold
+Verilog
+\series default
+, supporting 8 instructions for computer architecture class.
+ This is sufficient to run machine code produced by the MIPS compiler, from
+ the CS 251 compilers class.
+\end_layout
+
+\begin_layout Itemize
+Personal project: Dotabuff-ripper is a tool written in 
+\series bold
+Ruby
+\series default
+ to aid the counter-hero picking in 5v5 dota games.
+ A scraper collects about hero winrates from 
+\begin_inset CommandInset href
+LatexCommand href
+name "Dotabuff"
+target "dotabuff.com"
+
+\end_inset
+
+ and inserts into a 
+\series bold
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Neo4j"
+target "http://www.neo4j.org/learn/neo4j"
+
+\end_inset
+
+
+\emph default
+ graph based database
+\series default
+.
+ The tool then suggests a list of potential counter-picks.
+ Meant to have a web interface, but the web component (written with 
+\series bold
+Ruby on Rails
+\series default
+) is only partially completed.
 \end_layout
 
 \end_body
