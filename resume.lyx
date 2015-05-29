@@ -196,7 +196,7 @@ target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9ral
 
 \emph default
 .
- Graduating 2015.
+ Graduating August 2015.
 \end_layout
 
 \begin_layout Itemize
@@ -483,6 +483,18 @@ Interesting Projects
 \end_layout
 
 \begin_layout Itemize
+Artificial Intelligence (CS 486): Small projects involving machine learning,
+ Bayesian networks, constraint satisfaction problem.
+\end_layout
+
+\begin_layout Itemize
+Real-time Operating Systems (CS 452): One project for the entire semester,
+ to build a microkernel and write some user program to control some trains
+ on a track.
+ Thus the course is also called Trains.
+\end_layout
+
+\begin_layout Itemize
 Advanced Algorithms class (EPFL CS 450): A graduate course in algorithms,
  learned theoritical techniques and their applications to solve problems.
  Interesting techniques such as network flow, randomization, dynamic programming.
@@ -564,11 +576,11 @@ Verilog
 \end_layout
 
 \begin_layout Itemize
-Personal project: Dotabuff-ripper is a tool written in 
+Personal project: Dotabuff-ripper tool is written in 
 \series bold
 Ruby
 \series default
- to aid the counter-hero picking in 5v5 dota games.
+ to aid the counter-hero picking in 5v5 Dota games.
  A scraper collects about hero winrates from 
 \begin_inset CommandInset href
 LatexCommand href
@@ -593,12 +605,15 @@ target "http://www.neo4j.org/learn/neo4j"
  graph based database
 \series default
 .
- The tool then suggests a list of potential counter-picks.
+ The tool then suggests a list of potential counter-picks by simple algorithms.
  Meant to have a web interface, but the web component (written with 
 \series bold
 Ruby on Rails
 \series default
 ) is only partially completed.
+ Stopped working on this in 2013.
+ Now (2015) working on this again for a course project for artificial intelligen
+ce class.
 \end_layout
 
 \end_body
