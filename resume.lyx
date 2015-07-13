@@ -183,7 +183,8 @@ target "https://cs.uwaterloo.ca/"
 
 
 \emph default
- Computer Science undergraduate in 4B term, previous exchange student at
+ Computer Science undergraduate, graduating August 2015.
+ Previous exchange student at
 \emph on
  
 \begin_inset CommandInset href
@@ -193,10 +194,7 @@ target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9ral
 
 \end_inset
 
-
-\emph default
 .
- Graduating August 2015.
 \end_layout
 
 \begin_layout Itemize
@@ -212,9 +210,8 @@ target "blog.sunapi386.ca"
 
 \emph default
 ).
- Especially interested computer science, which was discovered from trying
- two previous majors during undergrad.
- Physics, and before that, business.
+ Especially interested computer science, which was discovered after trying
+ two different majors: physics, and business.
 \end_layout
 
 \begin_layout Itemize
@@ -450,7 +447,6 @@ Ruby on Rails
 Selenium
 \series default
  Java framework.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -483,21 +479,33 @@ Interesting Projects
 \end_layout
 
 \begin_layout Itemize
-Artificial Intelligence (CS 486): Small projects involving machine learning,
- Bayesian networks, constraint satisfaction problem.
+Real-time Operating Systems (CS 452): One project for the entire semester,
+ which is to build a real-time microkernel and write user programs to control
+ model trains on a track.
+ The course is famously called the Trains course.
 \end_layout
 
 \begin_layout Itemize
-Real-time Operating Systems (CS 452): One project for the entire semester,
- to build a microkernel and write some user program to control some trains
- on a track.
- Thus the course is also called Trains.
+Artificial Intelligence (CS 486): Worked on projects involving machine learning,
+ learning probabilistic models, Bayesian networks, search and constraint
+ satisfaction problems.
+ 
 \end_layout
 
 \begin_layout Itemize
 Advanced Algorithms class (EPFL CS 450): A graduate course in algorithms,
  learned theoritical techniques and their applications to solve problems.
  Interesting techniques such as network flow, randomization, dynamic programming.
+\end_layout
+
+\begin_layout Itemize
+Computer Graphics (EPFL CS 440): Half the course was about graphics rendering
+ techniques, and the second half about animation techinques.
+ Implmented rendering methods into a ray-tracer (called 
+\emph on
+Nori
+\emph default
+), and explored animation modeling and some fluid mechanics.
 \end_layout
 
 \begin_layout Itemize
@@ -562,7 +570,6 @@ Compilers class (CS 251): Built a MIPS compiler in C++, parsing a subset
 MIPS assembly
 \series default
  code.
- 
 \end_layout
 
 \begin_layout Itemize
