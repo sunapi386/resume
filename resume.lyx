@@ -336,6 +336,28 @@ Work Experiences
 \end_layout
 
 \begin_layout Itemize
+Software Engineer 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Apple Inc."
+target "www.apple.com"
+
+\end_inset
+
+
+\emph default
+ in Cupertino, California
+\end_layout
+
+\begin_layout Standard
+Develop internal software for reliability engineers.
+ Working with web platforms and embedded systems.
+ 
+\end_layout
+
+\begin_layout Itemize
 Software Engineer Intern 
 \emph on
 
