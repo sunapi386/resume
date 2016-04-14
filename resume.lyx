@@ -82,11 +82,14 @@ Jason Sun's Resume
 \end_layout
 
 \begin_layout Standard
+
+\size small
 \begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="4">
-<features rotate="0" tabularvalignment="middle">
+<lyxtabular version="3" rows="1" columns="5">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <row>
@@ -94,6 +97,8 @@ Jason Sun's Resume
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Flex URL
 status open
 
@@ -113,6 +118,8 @@ jason.sun@uwaterloo.ca
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 \begin_inset Flex URL
 status open
 
@@ -132,7 +139,30 @@ sunapi386.ca
 \begin_inset Text
 
 \begin_layout Plain Layout
-+1 (519) 500-2969
+
+\size small
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+linkedin.com/in/sunapi386
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
++1 (408) 599-0428
 \end_layout
 
 \end_inset
@@ -141,7 +171,8 @@ sunapi386.ca
 \begin_inset Text
 
 \begin_layout Plain Layout
-Compiled on 
+
+\size small
 \begin_inset ERT
 status open
 
@@ -183,8 +214,8 @@ target "https://cs.uwaterloo.ca/"
 
 
 \emph default
- Computer Science undergraduate, graduating August 2015.
- Previous exchange student at
+ Computer Science, graduated 2015.
+ Exchange term at
 \emph on
  
 \begin_inset CommandInset href
@@ -198,7 +229,8 @@ target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9ral
 \end_layout
 
 \begin_layout Itemize
-Very driven and motivated with many hobbies (visit my blogs at
+Very driven and motivated with many hobbies.
+ In my spare time I work on side projects, see
 \emph on
  
 \begin_inset CommandInset href
@@ -209,14 +241,14 @@ target "blog.sunapi386.ca"
 
 
 \emph default
-).
+.
  Especially interested computer science, which was discovered after trying
  two different majors: physics, and business.
 \end_layout
 
 \begin_layout Itemize
 Over eight years of experience using unix: Ubuntu, Arch Linux, OS X, and
- unix utilities like grep, less, find, fdisk, and etc.
+ unix utilities like grep, find, fdisk, nmap.
  
 \end_layout
 
@@ -353,8 +385,26 @@ target "www.apple.com"
 
 \begin_layout Standard
 Develop internal software for reliability engineers.
- Working with web platforms and embedded systems.
- 
+ Built 
+\series bold
+iOS
+\series default
+ apps and web services (
+\series bold
+Rails 5
+\series default
+) for factory production.
+ These tools are used on both developmental and production hardware.
+\end_layout
+
+\begin_layout Itemize
+Undergrad Research Assistant at University of Waterloo in Waterloo, Ontario
+\end_layout
+
+\begin_layout Standard
+Worked with professor and a small team.
+ Developed a data pipeline for processing chat logs, and built a search
+ engine prototype.
 \end_layout
 
 \begin_layout Itemize
@@ -406,7 +456,7 @@ target "encircleapp.com"
 \begin_layout Standard
 A startup in the
 \emph on
-
+ 
 \begin_inset CommandInset href
 LatexCommand href
 name "Velocity Garage"
@@ -430,27 +480,6 @@ python
 \series default
 .
  Worked on the web and android application stacks.
-\end_layout
-
-\begin_layout Itemize
-Undergrad Research Assistant at University of Waterloo in Waterloo, Ontario
-\end_layout
-
-\begin_layout Standard
-Working with professor and experimented acquiring sound input from a 
-\begin_inset CommandInset href
-LatexCommand href
-name "NI myDAQ"
-target "https://www.ni.com/mydaq/what-is/"
-
-\end_inset
-
-, a low-cost data acquisition device (DAQ), and performing data analysis
- on it using 
-\series bold
-Matlab
-\series default
-.
 \end_layout
 
 \begin_layout Itemize
