@@ -214,7 +214,7 @@ target "https://cs.uwaterloo.ca/"
 
 
 \emph default
- Computer Science, graduated 2015.
+ Computer Science, graduated in 2015.
  Exchange term at
 \emph on
  
@@ -387,14 +387,17 @@ target "www.apple.com"
 Develop internal software for reliability engineers.
  Built 
 \series bold
-iOS
+MacOS
 \series default
- apps and web services (
+,
 \series bold
-Rails 5
+ iOS
 \series default
-) for factory production.
- These tools are used on both developmental and production hardware.
+ apps and a website 
+\series bold
+Ember + Rails 5
+\series default
+.
 \end_layout
 
 \begin_layout Itemize
