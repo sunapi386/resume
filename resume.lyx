@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage[ddmmyyyy]{datetime}
@@ -13,16 +15,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -86,7 +88,7 @@ Jason Sun's Resume
 \size small
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="5">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="0pt">
@@ -104,7 +106,7 @@ status open
 
 \begin_layout Plain Layout
 
-jason.sun@uwaterloo.ca
+jason@sunapi386.ca
 \end_layout
 
 \end_inset
@@ -303,6 +305,10 @@ target "http://www.hopenumbernine.net/"
 
 \begin_layout Itemize
 Won hackathon prizes at:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -380,28 +386,44 @@ target "www.apple.com"
 
 
 \emph default
- in Cupertino, California
+ in November 2015 – Present (10 months) Cupertino, California 
 \end_layout
 
 \begin_layout Standard
-Develop internal software for reliability engineers.
- Built 
+Designed and implemented a complete web solution (
 \series bold
-MacOS
+Rails
 \series default
-,
+/
 \series bold
- iOS
+Ember
 \series default
- apps and a website 
+) for managing iOS devices, hosted on 
 \series bold
-Ember + Rails 5
+nginx
+\series default
+ and 
+\series bold
+MySQL
 \series default
 .
+ And implemented a corresponding client sided task runner delegate to work
+ on jobs queued from the web solution.
+ Contributed to internal iOS apps (
+\series bold
+Swif
+\series default
+t/
+\series bold
+Objective-C
+\series default
+).
+ 
 \end_layout
 
 \begin_layout Itemize
-Undergrad Research Assistant at University of Waterloo in Waterloo, Ontario
+Undergrad Research Assistant at University of Waterloo in May 2015 – September
+ 2015 (5 months) Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -423,7 +445,7 @@ target "https://www.shutterflyinc.com/about.html"
 
 
 \emph default
- in Redwood City, California
+ in July 2014 – August 2014 (2 months) Redwood City, California
 \end_layout
 
 \begin_layout Standard
@@ -453,7 +475,7 @@ target "encircleapp.com"
 
 
 \emph default
- in Kitchener, Ontario
+ in May 2014 – June 2014 (2 months) Kitchener, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -486,7 +508,8 @@ python
 \end_layout
 
 \begin_layout Itemize
-Software Tools Developer Intern at RIM (BlackBerry) in Ottawa, Ontario
+Software Tools Developer Intern at RIM (BlackBerry) in September 2013 –
+ December 2013 (4 months) Ottawa, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -516,7 +539,7 @@ target "http://www.wlu.ca/"
 
 
 \emph default
- in Waterloo, Ontario
+ in September 2011 – April 2012 (8 months) Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
