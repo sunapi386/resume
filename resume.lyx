@@ -249,8 +249,15 @@ target "blog.sunapi386.ca"
 \end_layout
 
 \begin_layout Itemize
-Over eight years of experience using unix: Ubuntu, Arch Linux, OS X, and
- unix utilities like grep, find, fdisk, nmap.
+Over ten years of experience unix: 
+\emph on
+Ubuntu, Arch Linux, OS X
+\emph default
+, and utilities like 
+\emph on
+grep, find, fdisk, nmap
+\emph default
+.
  
 \end_layout
 
@@ -386,7 +393,7 @@ target "www.apple.com"
 
 
 \emph default
- in November 2015 – Present (1 year 1 months) Cupertino, California 
+ in November 2015 – January 2017 (15 months) Cupertino, California 
 \end_layout
 
 \begin_layout Standard
@@ -657,47 +664,6 @@ Verilog
 , supporting 8 instructions for computer architecture class.
  This is sufficient to run machine code produced by the MIPS compiler, from
  the CS 251 compilers class.
-\end_layout
-
-\begin_layout Itemize
-Personal project: Dotabuff-ripper tool is written in 
-\series bold
-Ruby
-\series default
- to aid the counter-hero picking in 5v5 Dota games.
- A scraper collects about hero winrates from 
-\begin_inset CommandInset href
-LatexCommand href
-name "Dotabuff"
-target "dotabuff.com"
-
-\end_inset
-
- and inserts into a 
-\series bold
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Neo4j"
-target "http://www.neo4j.org/learn/neo4j"
-
-\end_inset
-
-
-\emph default
- graph based database
-\series default
-.
- The tool then suggests a list of potential counter-picks by simple algorithms.
- Meant to have a web interface, but the web component (written with 
-\series bold
-Ruby on Rails
-\series default
-) is only partially completed.
- Stopped working on this in 2013.
- Now (2015) working on this again for a course project for artificial intelligen
-ce class.
 \end_layout
 
 \end_body
