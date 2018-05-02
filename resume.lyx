@@ -381,6 +381,31 @@ Work Experiences
 \end_layout
 
 \begin_layout Itemize
+Autonomous System Engineer 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "AutoX Technologies Inc."
+target "http://autox.ai"
+
+\end_inset
+
+
+\emph default
+ in August 2017 – present San Jose, California 
+\end_layout
+
+\begin_layout Standard
+I'm a generalist software "firefighter" – to fix whatever comes up and make
+ sure the product is good.
+ I work with system architecture, embedded systems, computer vision, SLAM,
+ map building, etc.
+ I'm product oriented and business minded, prioritizing deliverables based
+ on what features are in high demand.
+\end_layout
+
+\begin_layout Itemize
 Software Engineer 
 \emph on
 
