@@ -397,12 +397,12 @@ target "http://autox.ai"
 \end_layout
 
 \begin_layout Standard
-I'm a generalist software "firefighter" – to fix whatever comes up and make
- sure the product is good.
- I work with system architecture, embedded systems, computer vision, SLAM,
- map building, etc.
- I'm product oriented and business minded, prioritizing deliverables based
- on what features are in high demand.
+C++, Python, Javascript.
+ Full-stack autonomous system integration.
+ Architecting remote vehicle control, hybrid vehicle decision interaction,
+ cloud to vehicle API.
+ A generalist architect role leading team efforts to design and integrate
+ multiple tech stacks for new feature developments.
 \end_layout
 
 \begin_layout Itemize
@@ -584,7 +584,7 @@ pySerial
 \end_layout
 
 \begin_layout Subsection*
-Interesting Projects
+Related Education
 \end_layout
 
 \begin_layout Itemize
@@ -602,8 +602,8 @@ Artificial Intelligence (CS 486): Worked on projects involving machine learning,
 \end_layout
 
 \begin_layout Itemize
-Advanced Algorithms class (EPFL CS 450): A graduate course in algorithms,
- learned theoritical techniques and their applications to solve problems.
+Advanced Algorithms (EPFL CS 450): A graduate course in algorithms, learned
+ theoritical techniques and their applications to solve problems.
  Interesting techniques such as network flow, randomization, dynamic programming.
 \end_layout
 
@@ -618,15 +618,15 @@ Nori
 \end_layout
 
 \begin_layout Itemize
-Intelligent Agent class (EPFL CS 430): Developed intelligent agents to pickup
- and deliver parcels in a simulated environment, with intelligent behaviours:
- reactive, deliberative, centralized, decentralized, and auctioning.
+AI: Intelligent Agent class (EPFL CS 430): Developed intelligent agents
+ to pickup and deliver parcels in a simulated environment, with intelligent
+ behaviours: reactive, deliberative, centralized, decentralized, and auctioning.
  
 \end_layout
 
 \begin_layout Itemize
-Concurrency class (CS 343): Multithreaded quicksort, implementation of well
- known concurrency control mechanisms, such as monitors.
+Concurrency & Parallel Programming (CS 343): Multithreaded quicksort, implementa
+tion of well known concurrency control mechanisms, such as monitors.
  Language is in 
 \series bold
 \emph on
@@ -646,8 +646,7 @@ target "http://plg.uwaterloo.ca/usystem/uC++.html"
 \end_layout
 
 \begin_layout Itemize
-Distributed Systems class (CS 454): Built a remote procedure call library
- in 
+Distributed Systems (CS 454): Built a remote procedure call library in 
 \series bold
 C++
 \series default
@@ -662,7 +661,7 @@ Java
 \end_layout
 
 \begin_layout Itemize
-Computer Security class (CS 458): Created exploits in 
+Computer Security (CS 458): Created exploits in 
 \series bold
 C
 \series default
@@ -673,8 +672,8 @@ C
 \end_layout
 
 \begin_layout Itemize
-Compilers class (CS 251): Built a MIPS compiler in C++, parsing a subset
- of C keywords and generating 
+Compilers (CS 251): Built a MIPS compiler in C++, parsing a subset of C
+ keywords and generating 
 \series bold
 MIPS assembly
 \series default
@@ -682,7 +681,7 @@ MIPS assembly
 \end_layout
 
 \begin_layout Itemize
-Computer Architecture class (CS 450): Designed a pipelined CPU in 
+Computer Architecture (CS 450): Designed a pipelined CPU in 
 \series bold
 Verilog
 \series default
