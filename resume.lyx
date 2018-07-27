@@ -201,38 +201,11 @@ today
 \end_layout
 
 \begin_layout Subsection*
-About Me
+Profile
 \end_layout
 
 \begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "University of Waterloo"
-target "https://cs.uwaterloo.ca/"
-
-\end_inset
-
-
-\emph default
- Computer Science, graduated in 2015.
- Exchange term at
-\emph on
- 
-\begin_inset CommandInset href
-LatexCommand href
-name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
-target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Very driven and motivated with many hobbies.
- In my spare time I work on side projects, see
+Very driven and motivated with many hobbies (visit my blogs at
 \emph on
  
 \begin_inset CommandInset href
@@ -243,19 +216,19 @@ target "blog.sunapi386.ca"
 
 
 \emph default
-.
+).
  Especially interested computer science, which was discovered after trying
  two different majors: physics, and business.
 \end_layout
 
 \begin_layout Itemize
-Over ten years of experience unix: 
+Over twelve years of experience using unix: 
 \emph on
 Ubuntu, Arch Linux, OS X
 \emph default
-, and utilities like 
+, and utilities like
 \emph on
-grep, find, fdisk, nmap
+ nmap
 \emph default
 .
  
@@ -308,80 +281,49 @@ target "http://www.hopenumbernine.net/"
 
 \emph default
 , PennApps 2013, MHacks 2014, HackMIT 2014, and HackZurich 2014.
+ 
 \end_layout
 
-\begin_layout Itemize
-Won hackathon prizes at:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "HackZurich 2014"
-target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
-
-\end_inset
-
-
-\emph default
- at ETH Zürich, received Tamedia Digital Award (all-inclusive team trip
- to visit startups in Berlin, Germany) with 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name ".GIFMeIt"
-target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
-
-\end_inset
-
-
-\emph default
-: An iOS app that lets a user easily capture and share GIF images.
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "PennApps 2013"
-target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
-
-\end_inset
-
-
-\emph default
- at University of Pennsylvania, received Twilio's Communication Award ($500)
- with 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Marmoset"
-target "http://youtu.be/-tEexMRq7fY"
-
-\end_inset
-
-
-\emph default
-: A chatbot to respond to your chosen Facebook friends without them knowing.
-\end_layout
-
-\end_deeper
 \begin_layout Subsection*
-Work Experiences
+Education 
 \end_layout
 
 \begin_layout Itemize
-Autonomous System Engineer 
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "University of Waterloo"
+target "https://cs.uwaterloo.ca/"
+
+\end_inset
+
+
+\emph default
+ Bachelor of Computer Science, 2015.
+ 
+\end_layout
+
+\begin_layout Itemize
+Computer Science Exchange Student at
+\emph on
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
+target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Work Experience
+\end_layout
+
+\begin_layout Itemize
+Autonomous Systems Integration Engineer 
 \emph on
 
 \begin_inset CommandInset href
@@ -397,12 +339,22 @@ target "http://autox.ai"
 \end_layout
 
 \begin_layout Standard
-C++, Python, Javascript.
- Full-stack autonomous system integration.
- Architecting remote vehicle control, hybrid vehicle decision interaction,
- cloud to vehicle API.
- A generalist architect role leading team efforts to design and integrate
- multiple tech stacks for new feature developments.
+Full-stack autonomous system integration, working on both low-speed delivery
+ vehicle and high-speed vehicles.
+ Experience with using SLAM, LOAM, lidars, cameras, radars, ultrasonics.
+ Designed and built vehicle- related product features such as, but not limited
+ to: vehicle remote control (networked video streaming and throttle/steering
+ control), hybrid human-and-AI decision making for solving difficult driving
+ scenarios, vehicle to human interaction methods (currently under US patent
+ application process), design and implement vehicle-to-cloud APIs (LTE networked
+), embedded systems with touchscreen for human-vehicle interactions.
+ Non-vehicle related projects include automating the build-deploy-release
+ process using dockerized containers, vehicle simulation tests, ROS like
+ message passing system with Protobuf, and leading team efforts to build
+ an API backend and iOS app for a location-based delivery service (LBS).
+ I usually am taking on the general architect role, leading team efforts
+ to design and integrate tech stacks for product feature development, using
+ C++, Python, Javascript.
 \end_layout
 
 \begin_layout Itemize
@@ -422,34 +374,11 @@ target "www.apple.com"
 \end_layout
 
 \begin_layout Standard
-Designed and implemented a complete web solution (
-\series bold
-Rails
-\series default
-/
-\series bold
-Ember
-\series default
-) for managing iOS devices, hosted on 
-\series bold
-nginx
-\series default
- and 
-\series bold
-MySQL
-\series default
-.
- And implemented a corresponding client sided task runner delegate to work
- on jobs queued from the web solution.
- Contributed to internal iOS apps (
-\series bold
-Swif
-\series default
-t/
-\series bold
-Objective-C
-\series default
-).
+Improved existing product reliability tools, conceived and built full-stack
+ website (Rails API & Ember.js & nginx & mySQL) for managing iOS devices.
+ Created client-sided task runners for delegating test-work, where work
+ jobs were queued from the website.
+ Also worked on internal iOS and macOS apps (Swift & Objective-C).
  
 \end_layout
 
@@ -459,9 +388,12 @@ Undergrad Research Assistant at University of Waterloo in May 2015 – September
 \end_layout
 
 \begin_layout Standard
-Worked with professor and a small team.
- Developed a data pipeline for processing chat logs, and built a search
- engine prototype.
+Worked with my AI professor and a 6 person team to develop a data tool for
+ analysis of chat logs, and built a search engine prototype (using TF-IDF
+ in Apache Lucene).
+ Prototyped a search engine for customer support chat dialogues with Apache
+ Lucene using TF-IDF indexing for feature recognition and searching.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -481,17 +413,13 @@ target "https://www.shutterflyinc.com/about.html"
 \end_layout
 
 \begin_layout Standard
-Develop functional load tests for distributed services.
- Design and implemented a distributed key value storage service, using technolog
-y like 
-\series bold
-Jersey
-\series default
- RESTful Web Services framework and Apache 
-\series bold
-Cassandra
-\series default
-.
+Design and implemented a distributed REST API service, in Java/Scala based
+ upon the Apache Cassandra database.
+ The API was designed by myself, with guidance from full-time employee members
+ of the web infrastructure platform team, to be used by other Shutterfly
+ services.
+ Create additional network load tests for our distributed image hosting
+ service.
 \end_layout
 
 \begin_layout Itemize
@@ -511,7 +439,8 @@ target "encircleapp.com"
 \end_layout
 
 \begin_layout Standard
-A startup in the
+Worked on the website (CoffeeScript & Python Tornado server) and Android
+ app, at a 3 engineer startup in the
 \emph on
  
 \begin_inset CommandInset href
@@ -523,20 +452,8 @@ target "http://velocity.uwaterloo.ca/garage/"
 
 
 \emph default
-, worked in
-\series bold
- java
-\series default
-, 
-\series bold
-coffee
-\series default
-, and 
-\series bold
-python
-\series default
-.
- Worked on the web and android application stacks.
+, which is a University of Waterloo startup incubator.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -545,17 +462,10 @@ Software Tools Developer Intern at RIM (BlackBerry) in September 2013 –
 \end_layout
 
 \begin_layout Standard
-Built features to the GitLab open source project (
-\series bold
-Ruby on Rails
-\series default
-).
- Developed a testing framework for testing website user interfaces, using
- the 
-\series bold
-Selenium
-\series default
- Java framework.
+Built internally used features to GitLab (Ruby on Rails) and helped with
+ database migration from Github to Gitlab.
+ Developed a testing framework for integration and regression testing website
+ user interfaces using the Selenium Webdriver.
 \end_layout
 
 \begin_layout Itemize
@@ -575,16 +485,13 @@ target "http://www.wlu.ca/"
 \end_layout
 
 \begin_layout Standard
-Developed a spectrometer reading program in python, using the 
-\series bold
-pySerial
-\series default
- library, and automate queries over serial port - previously you had to
- punch numbers on the machine.
+Developed a spectrometer reading program in Python, using the pySerial library,
+ to automate the reading of lab samples, and generate a spreadsheet file.
+ Supports multiple spectrometer readings in parallel.
 \end_layout
 
 \begin_layout Subsection*
-Related Education
+Related Classes
 \end_layout
 
 \begin_layout Itemize
@@ -646,17 +553,10 @@ target "http://plg.uwaterloo.ca/usystem/uC++.html"
 \end_layout
 
 \begin_layout Itemize
-Distributed Systems (CS 454): Built a remote procedure call library in 
-\series bold
-C++
-\series default
+Distributed Systems (CS 454): Built a remote procedure call library in C++
  on top of TCP, both client and server side.
  Implemented the go-back-N reliable transmission protocol, over UDP using
- 
-\series bold
-Java
-\series default
-.
+ Java.
  
 \end_layout
 
@@ -673,21 +573,74 @@ C
 
 \begin_layout Itemize
 Compilers (CS 251): Built a MIPS compiler in C++, parsing a subset of C
- keywords and generating 
-\series bold
-MIPS assembly
-\series default
- code.
+ keywords and generating assembly (MIPS) code.
 \end_layout
 
 \begin_layout Itemize
-Computer Architecture (CS 450): Designed a pipelined CPU in 
-\series bold
-Verilog
-\series default
-, supporting 8 instructions for computer architecture class.
+Computer Architecture (CS 450): Designed a pipelined CPU in Verilog, supporting
+ 8 instructions for computer architecture class.
  This is sufficient to run machine code produced by the MIPS compiler, from
  the CS 251 compilers class.
+\end_layout
+
+\begin_layout Subsection*
+Awards and Achievements
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "HackZurich 2014"
+target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
+
+\end_inset
+
+
+\emph default
+ at ETH Zürich, received Tamedia Digital Award (all-inclusive team trip
+ to visit startups in Berlin, Germany) with 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name ".GIFMeIt"
+target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
+
+\end_inset
+
+
+\emph default
+: An iOS app that lets a user easily capture and share GIF images.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "PennApps 2013"
+target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
+
+\end_inset
+
+
+\emph default
+ at University of Pennsylvania, received Twilio's Communication Award ($500)
+ with 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Marmoset"
+target "http://youtu.be/-tEexMRq7fY"
+
+\end_inset
+
+
+\emph default
+: A chatbot to respond to your chosen Facebook friends without them knowing.
 \end_layout
 
 \end_body
