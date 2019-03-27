@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 \usetheme{Darmstadt}
@@ -17,16 +19,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman palatino
-\font_sans lmss
-\font_typewriter default
-\font_math auto
+\font_roman "palatino" "default"
+\font_sans "lmss" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -77,102 +79,8 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-This file is a solution template for:
-\end_layout
-
-\begin_layout Itemize
-Talk at a conference/colloquium.
- 
-\end_layout
-
-\begin_layout Itemize
-Talk length is about 20min.
- 
-\end_layout
-
-\begin_layout Itemize
-Style is ornate.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
- 
-\end_layout
-
-\begin_layout Plain Layout
-In principle, this file can be redistributed and/or modified under the terms
- of the GNU Public License, version 2.
- However, this file is supposed to be a template to be modified for your
- own needs.
- For this reason, if you use this file as a template and not specifically
- distribute it as part of a another package/program, the author grants the
- extra permission to freely copy and modify this file as you see fit and
- even to delete this copyright notice.
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Title
-Candidate Summary
-\end_layout
-
-\begin_layout Subtitle
-Software Tools Engineer Position
-\end_layout
-
-\begin_layout Author
-Jason
-\begin_inset space ~
-\end_inset
-
-Sun 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Itemize
-Give the names in the same order as the appear in the paper.
- 
-\end_layout
-
-\begin_layout Itemize
-Use the 
-\begin_inset Quotes eld
-\end_inset
-
-Institute mark
-\begin_inset Quotes erd
-\end_inset
-
- inset (
-\family sans
-Insert\SpecialChar \menuseparator
-Custom Insets\SpecialChar \menuseparator
-InstituteMark
-\family default
-) only if the authors have different affiliations.
-\end_layout
-
-\end_inset
-
-
+Jason Sun
 \end_layout
 
 \begin_layout Institute
@@ -181,94 +89,11 @@ Bachelor of Computer Science
 \end_inset
 
 University of Waterloo
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Itemize
-Use the 
-\begin_inset Quotes eld
-\end_inset
-
-Institute mark
-\begin_inset Quotes erd
-\end_inset
-
- inset (
-\family sans
-Insert\SpecialChar \menuseparator
-Custom Insets\SpecialChar \menuseparator
-InstituteMark
-\family default
-) only if there are several affiliations.
-\end_layout
-
-\begin_layout Itemize
-Keep it simple, no one is interested in your street address.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Date
-Apple Interview, August 15 2015
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Compiled 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-currenttime
-\end_layout
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-today
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Itemize
-Either use conference name or its abbreviation.
- 
-\end_layout
-
-\begin_layout Itemize
-Not really informative to the audience, more for people (including yourself)
- who are reading the slides online
-\end_layout
-
-\end_inset
-
-
+Mar.
+ 17, 2017 @ AutoX
 \end_layout
 
 \begin_layout Standard
@@ -454,6 +279,10 @@ Table of Contents
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -517,11 +346,7 @@ If you omit details that are vital to the proof/implementation, just say
 
 \end_deeper
 \begin_layout Section
-About Jason Sun
-\end_layout
-
-\begin_layout Subsection
-Chronology
+History
 \end_layout
 
 \begin_layout Frame
@@ -529,13 +354,7 @@ Chronology
 \end_layout
 
 \begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Every day is a page of history
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -544,58 +363,25 @@ Every day is a page of history
 \begin_deeper
 \begin_layout Itemize
 Pre-2010
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-SSH tunnel server at home
+SSH server at home.
 \end_layout
 
 \begin_layout Itemize
-Use BackTrack linux (slackware) for security auditing (cracking WEP, DNS
- poisoning)
-\end_layout
-
-\begin_layout Pause
-
+BackTrack linux (slackware) security auditing (WEP, DNS).
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 2010
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Graduated Westmount high school (one of 7 self-directed schools in Canada)
-\end_layout
-
-\begin_layout Itemize
-Started Business Administration at Wilfrid Laurier University
-\end_layout
-
-\begin_layout Itemize
-Became a Physics Teaching Asssitant
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Time only flows forwards – but tachyons can move backwards
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -603,98 +389,82 @@ Time only flows forwards – but tachyons can move backwards
 
 \begin_deeper
 \begin_layout Itemize
-2011 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Transferred to University of Waterloo for Physics
+Graduated high school (Westmount S.S.
+ one of 2 self-pace learning schools in Ontario).
 \end_layout
 
 \begin_layout Itemize
-Started taking programming class formally and discovered it was more fun
+Started Business Administration at Wilfrid Laurier University.
 \end_layout
 
 \begin_layout Itemize
-Switched to Computer Science Major
-\end_layout
-
-\begin_layout Pause
-
+Physics Teaching Asssitant.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-2013
+2011 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Became Undergrad Research Assistant
+Transferred to Physics @ University of Waterloo.
 \end_layout
 
 \begin_layout Itemize
-Work at BlackBerry
+Forma programming classes, more fun.
 \end_layout
 
-\begin_layout Pause
+\begin_layout Itemize
+Switched to Computer Science.
+\end_layout
 
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2013
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Undergrad Research Assistant.
+\end_layout
+
+\begin_layout Itemize
+Intern at BlackBerry Ottawa.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 2014 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Work at Shutterfly
-\end_layout
-
-\begin_layout Itemize
-Exchange semester in Switzerland
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-2015
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Finish Computer Science undergrad
-\end_layout
-
-\begin_layout Itemize
-Work at Apple (?)
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Readings
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Stand on the shoulders of giants
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -702,19 +472,62 @@ Stand on the shoulders of giants
 
 \begin_deeper
 \begin_layout Itemize
-Mostly non-fiction.
- Including textbooks!
+Intern at Shutterfly in Redwood City.
 \end_layout
 
-\begin_deeper
-\begin_layout Pause
-
+\begin_layout Itemize
+Exchange student in Switzerland's EPFL.
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+2015
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Graduate.
+\end_layout
+
+\begin_layout Itemize
+Full-time Apple Cupertino.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Read non-fiction.
+ Including textbooks.
+ Science fiction.
+ 
+\end_layout
+
 \begin_layout Block
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -737,9 +550,13 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
-Some Favourites
+Favourites
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -751,12 +568,16 @@ Some Favourites
 \emph on
 On Intelligence
 \emph default
- – Jeff Hawkins
+ – Jeff Hawkins.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Building deep neural networks based on how the brain actually works.
+Hypothesis on brain neural architecture, how it works.
 \end_layout
 
 \end_deeper
@@ -765,12 +586,17 @@ Building deep neural networks based on how the brain actually works.
 \emph on
 Artificial Intelligence: A Modern Approach
 \emph default
- – Peter Norvig
+ – Peter Norvig.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-A whirlwind tour of cool tools used in the industry.
+A little dated.
+ But a whirlwind tour of tools used in the industry.
 \end_layout
 
 \end_deeper
@@ -779,33 +605,31 @@ A whirlwind tour of cool tools used in the industry.
 \emph on
 What Do You Care What Other People Think
 \emph default
- – Richard Feynman
+ – Richard Feynman.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Curious life of a brilliant physicist.
+Very interesting life of a brilliant physicist.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+AlphaGo paper.
 \end_layout
 
 \end_deeper
 \end_deeper
-\end_deeper
-\begin_layout Separator
+\begin_layout Standard
 
-\end_layout
-
-\begin_layout Subsection
-Traveling
 \end_layout
 
 \begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Better travel ten thousand miles than read ten thousand books
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -813,128 +637,43 @@ Better travel ten thousand miles than read ten thousand books
 
 \begin_deeper
 \begin_layout Itemize
-Countries I've been: 
+Countries I've been to: 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Switzerland, at 
-\emph on
-École Polytechnique Fédérale de Lausanne
-\emph default
-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Itemize
-English: Swiss Federal Institute of Technology in Lausanne
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Germany
-\end_layout
-
-\begin_layout Itemize
-Italy
-\end_layout
-
-\begin_layout Itemize
-Cuba
-\end_layout
-
-\begin_layout Itemize
-China
+Switzerland, Germany, Italy, Cuba, Mexico, China.
 \end_layout
 
 \end_deeper
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Countries I want to go:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Iceland (Vocanoes)
-\end_layout
-
-\begin_layout Itemize
-Greece (Ancient ruins)
-\end_layout
-
-\begin_layout Itemize
-New Zealand (Lord of the Rings scenes) 
-\end_layout
-
-\begin_layout Itemize
-Space (and beyond!)
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Traveling Pictures
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-The keyboard is mightier than the sword
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+Iceland/New Zealand (mountains + Gandalf), Greece (ruins).
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename photo1.jpg
-	display false
-	width 70pheight%
-	height 70pheight%
-
+\begin_inset Separator parbreak
 \end_inset
 
 
 \end_layout
 
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Sports
-\end_layout
-
 \begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Healthy body and healthy mind
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -942,44 +681,13 @@ Healthy body and healthy mind
 
 \begin_deeper
 \begin_layout Itemize
-Usually found swimming, cycling, jogging.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Looking forward to try scuba diving, sailing, flying.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Hiking.
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-E-Sports
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
+Photography 
+\begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
-These can be considered mind exercises
+
+http://memories.life
 \end_layout
 
 \end_inset
@@ -987,58 +695,36 @@ These can be considered mind exercises
 
 \end_layout
 
-\begin_layout Frame
-
+\begin_layout Itemize
+Swimming, cycling, running, hiking.
 \end_layout
 
-\begin_deeper
+\begin_layout Itemize
+Want to: scuba, sailing, flying.
+\end_layout
+
 \begin_layout Itemize
 Generally likes likes team games, having common objectives.
 \end_layout
 
-\begin_deeper
-\begin_layout Pause
-
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
-Mostly play 
-\emph on
-Dota 2
-\emph default
-.
- Real time team strategy game.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Made a recommendation engine to pick characters in game.
- Machine learning on game histories.
+Made a Dota 2 recommendation engine to help pick characters in game.
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
 \begin_layout Section
-Work Experiences
-\end_layout
-
-\begin_layout Subsection
-Shutterfly
+Work
 \end_layout
 
 \begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Capturing a slice of time
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1046,46 +732,126 @@ Capturing a slice of time
 
 \begin_deeper
 \begin_layout Itemize
-An internet-based image publishing service
+Physics TA with Prof.
+ Hasan Shodiev.
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
-Converts digital photo content to physical mediums
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Design and implemented API key-value service
+Built an automated spectrometer reading program in Python.
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Shutterfly.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An internet-based image publishing service.
+\end_layout
+
+\begin_layout Itemize
+Converts digital photo content to physical mediums.
+\end_layout
+
+\begin_layout Itemize
+Design and implemented API key-value service.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Encircle.
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Home inventory documentation for individuals.
+\end_layout
+
+\begin_layout Itemize
+Digital file cabinet for insurance companies.
+\end_layout
+
+\begin_layout Itemize
+Worked on web and Android.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Python, CoffeeScript, Java.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+BlackBerry 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Website testing with Java, Selenium.
+\end_layout
+
+\begin_layout Itemize
+Github to Gitlab migration.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ruby on Rails.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+URA #1 with Prof.
+ Richard Mann.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Glue the NI my-DAQ data acquisition device into Matlab.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 
 \end_layout
 
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Encircle
-\end_layout
-
 \begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Very circle
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1093,195 +859,51 @@ Very circle
 
 \begin_deeper
 \begin_layout Itemize
-Two target audiences 
+URA #2 with Prof.
+ Pascal Poupart.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Home inventory documentation for individuals
-\end_layout
-
-\begin_layout Itemize
-Digital file cabinet for insurance companies 
+Tried to build a conversational agent, suggestion bot.
 \end_layout
 
 \end_deeper
-\begin_layout Pause
+\begin_layout Itemize
+Apple.
+\end_layout
 
+\begin_deeper
+\begin_layout Itemize
+iOS devices job management website/worker.
 \end_layout
 
 \begin_layout Itemize
-Worked on web stack and Android
-\end_layout
-
-\begin_layout Pause
-
+Rails 5, Ember.js, Swift, and lots of bash glue.
 \end_layout
 
 \begin_layout Itemize
-Drink Python, Java, and Coffee
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Didn't drink any Python
-\end_layout
-
-\end_inset
-
-
+Maintained MacOS/iOS apps.
 \end_layout
 
 \end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-BlackBerry
-\end_layout
-
+\end_deeper
 \begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-It too has a fruity name
-\end_layout
-
+\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Apple's competitor in communication equipments
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Website testing with Java, Selenium
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Github to Gitlab migration
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Ruby and some Rails
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-University of Waterloo
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Fast fourier transform can decode dial tone numbers
-\end_layout
-
+\begin_layout Standard
+\begin_inset Separator parbreak
 \end_inset
 
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Supervisor: Professor Richard Mann
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-https://cs.uwaterloo.ca/~mannr/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Glue the NI my-DAQ data acquisition device into Matlab
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Wilfrid Laurier University
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Physics software in disguise
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Supervisor: Professor Hasan Shodiev
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-https://legacy.wlu.ca/homepage.php?grp_id=2607&ct_id=2253&f_id=2
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Built an automated spectrometer reading program
-\end_layout
-
-\end_deeper
-\begin_layout Separator
 
 \end_layout
 
 \begin_layout Section
-Projects
-\end_layout
-
-\begin_layout Subsection
-Play with trains
+Technical 
 \end_layout
 
 \begin_layout Frame
@@ -1289,9 +911,13 @@ Play with trains
 status open
 
 \begin_layout Plain Layout
-You know what they say: no train, no pain
+No train, no pain
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1299,87 +925,66 @@ You know what they say: no train, no pain
 
 \begin_deeper
 \begin_layout Itemize
-Get to play with real model trains!
-\end_layout
-
-\begin_layout Pause
-
+Model trains!
 \end_layout
 
 \begin_layout Itemize
-Actually an embedded systems course.
- Real-time Operating Systems.
+Real time programming course.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Build your own kernel and train control
+Build your own kernel and train control.
 \end_layout
 
 \begin_layout Itemize
-12,000 lines of code project
-\end_layout
-
-\begin_layout Pause
-
+8,000 lines of code project.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Notoriously hard to debug
+Hard to debug.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Once had a 172 hour bug in our context-switch
+Once had a 172 hour bug in our context-switch.
 \end_layout
 
 \begin_layout Itemize
-Debugging was hard, because
+Debugging was hard, because heisenbug.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Bug occurs infrequrently 
-\end_layout
-
-\begin_layout Itemize
-Bug occurance was unpredictable, irregular
-\end_layout
-
-\begin_layout Itemize
-Bug only cause a crash only after much subsequent execution
-\end_layout
-
-\begin_layout Itemize
-Bug always had different symptom
-\end_layout
-
-\begin_layout Itemize
-Bug was found 1 professor, 2 teaching assistants, and 3 students later
+infrequrent, unpredictable, irregular.
 \end_layout
 
 \end_deeper
-\begin_layout Pause
-
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
-26.5 hour take-home exam, and answer 3 out of 5 questions (5800 words)
+26.5 hour take-home exam, and answer 3 out of 5 questions.
 \end_layout
 
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
+\begin_layout Itemize
+\begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
-The final count down
+
+https://medium.com/@sunapi386
 \end_layout
 
 \end_inset
@@ -1387,169 +992,11 @@ The final count down
 
 \end_layout
 
-\begin_deeper
+\end_deeper
 \begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename train.jpg
-	display false
-	width 70pheight%
-	height 70pheight%
-
+\begin_inset Separator parbreak
 \end_inset
 
-
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Multi-track Drift: Occurs when a train can't decide which direction it wants
- to go
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename traindrift.jpg
-	display false
-	width 70pheight%
-	height 70pheight%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Choo choo time
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Show train video
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Hacks
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Hardware seems to be harder than software
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename photo2.jpg
-	display false
-	width 70pheight%
-	height 70pheight%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-HackZurich iOS app
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename gifmelt.png
-	display false
-	width 70pheight%
-	height 70pheight%
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-GifMeIt
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Show short demo video
-\end_layout
-
-\end_deeper
-\begin_layout Separator
 
 \end_layout
 
@@ -1562,9 +1009,13 @@ Summary
 status open
 
 \begin_layout Plain Layout
-Candidate for Software Tools Engineer
+AutoX Software Engineer
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1572,58 +1023,29 @@ Candidate for Software Tools Engineer
 
 \begin_deeper
 \begin_layout Itemize
-Jason is a 
-\color red
-creative 
+Always wanted
 \color none
-and 
-\color red
-curious 
-\color none
-hacker.
+ to work on a startup.
 \end_layout
 
 \begin_layout Itemize
-Likes to
-\color none
- 
-\color red
-learn
-\color none
- and 
-\color red
-build
-\color none
- stuff.
- 
-\end_layout
-
-\begin_layout Itemize
-Passionate about
-\color none
- 
-\color red
-programming
-\color none
-.
+Change the world, have meaningful, impactful life.
 \end_layout
 
 \begin_deeper
-\begin_layout Pause
-
+\begin_layout Itemize
+Autonomous driving is very cool! Meaningful, impactful, startup.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Further references
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Jason maintains a blog of his hobbies
+Self-improving attitude
+\color none
+, passion for learning
 \end_layout
 
 \begin_layout Itemize
+Jason's blog 
 \begin_inset Flex URL
 status open
 
@@ -1638,8 +1060,10 @@ http://sunapi386.ca
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
