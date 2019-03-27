@@ -101,13 +101,11 @@ Jason Sun's Resume
 \begin_layout Plain Layout
 
 \size small
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-jason@sunapi386.ca
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "sunapi386@gmail.com"
+target "sunapi386@gmail.com?subject=Jason%20Resume"
+type "mailto:"
 
 \end_inset
 
@@ -120,15 +118,10 @@ jason@sunapi386.ca
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size small
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-sunapi386.ca
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "sunapi386.ca"
+target "http://sunapi386.ca"
 
 \end_inset
 
@@ -141,15 +134,10 @@ sunapi386.ca
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size small
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-linkedin.com/in/sunapi386
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "linkedin.com/in/sunapi386"
+target "https://linkedin.com/in/sunapi386"
 
 \end_inset
 
@@ -205,7 +193,15 @@ Profile
 \end_layout
 
 \begin_layout Itemize
-Very driven and motivated with many hobbies (visit my blogs at
+Full-stack autonomous system software engineer.
+ Big data, mapping, localization, vehicle remote vehicle control, hybrid
+ human-vehicle interactions, cloud to vehicle API.
+ A generalist architect role who lead efforts to design and integrate multiple
+ tech stacks to form new features, working in C++, Python, and Javascript.
+\end_layout
+
+\begin_layout Itemize
+Driven and self-motivated personality with many hobbies (see blog at
 \emph on
  
 \begin_inset CommandInset href
@@ -217,18 +213,21 @@ target "blog.sunapi386.ca"
 
 \emph default
 ).
- Especially interested computer science, which was discovered after trying
- two different majors: physics, and business.
+ 
 \end_layout
 
 \begin_layout Itemize
-Over twelve years of experience using unix: 
+Over a decade of experience in coding, starting with scripting since 2004
+ on 
 \emph on
-Ubuntu, Arch Linux, OS X
+Slackware Linux, Arch Linux, Debian/Ubuntu
+\series bold
 \emph default
-, and utilities like
+,
 \emph on
- nmap
+ OS
+\series default
+ X
 \emph default
 .
  
@@ -256,9 +255,17 @@ target "http://velocity.uwaterloo.ca/garage/"
 .
  
 \emph default
-Enjoys technology conventions; ones I had attended were: 
+Conferences: 
 \emph on
 
+\begin_inset CommandInset href
+LatexCommand href
+name "DEFCON (#25)"
+target "https://www.defcon.org/"
+
+\end_inset
+
+, 
 \begin_inset CommandInset href
 LatexCommand href
 name "DEFCON (#22)"
@@ -273,7 +280,7 @@ target "https://www.defcon.org/"
 
 \begin_inset CommandInset href
 LatexCommand href
-name "2600 Hope Number 9"
+name "2600 Hope 9"
 target "http://www.hopenumbernine.net/"
 
 \end_inset
@@ -323,7 +330,7 @@ Work Experience
 \end_layout
 
 \begin_layout Itemize
-Autonomous Systems Integration Engineer 
+Autonomous Systems Engineer 
 \emph on
 
 \begin_inset CommandInset href
@@ -339,22 +346,28 @@ target "http://autox.ai"
 \end_layout
 
 \begin_layout Standard
-Full-stack autonomous system integration, working on both low-speed delivery
- vehicle and high-speed vehicles.
- Experience with using SLAM, LOAM, lidars, cameras, radars, ultrasonics.
- Designed and built vehicle- related product features such as, but not limited
- to: vehicle remote control (networked video streaming and throttle/steering
- control), hybrid human-and-AI decision making for solving difficult driving
- scenarios, vehicle to human interaction methods (currently under US patent
- application process), design and implement vehicle-to-cloud APIs (LTE networked
-), embedded systems with touchscreen for human-vehicle interactions.
- Non-vehicle related projects include automating the build-deploy-release
- process using dockerized containers, vehicle simulation tests, ROS like
- message passing system with Protobuf, and leading team efforts to build
- an API backend and iOS app for a location-based delivery service (LBS).
- I usually am taking on the general architect role, leading team efforts
- to design and integrate tech stacks for product feature development, using
- C++, Python, Javascript.
+Automating the mapping infrastructure for large scale map building used
+ in lidar localization, with Hadoop, GraphQL, Node.js, React, GeoMesa DB.
+ 
+\end_layout
+
+\begin_layout Standard
+Lead efforts to build API backend for location-based delivery service AutoX
+ apps.
+ General architect role, lead team efforts to design and integrate tech
+ stacks for product feature development using C++, Python, Javascript.
+ 
+\end_layout
+
+\begin_layout Standard
+Full-stack autonomous system integration, low/high-speed delivery vehicles.
+ Experienced in SLAM, LOAM, lidars, cameras, radars, ultrasonics.
+ Created features like: remote control (networked video streaming and throttle/s
+teering control), hybrid human-and-AI decision making for unhandled driving
+ scenarios (in patent process), design and implement vehicle-to-cloud APIs
+ (LTE networked), embedded systems with touchscreen UI.
+ Cluster computing automation using Docker, Kubernetes, ROS (Protobuf).
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -370,7 +383,7 @@ target "www.apple.com"
 
 
 \emph default
- in November 2015 – January 2017 (15 months) Cupertino, California 
+ in November 2015 – January 2017 Cupertino, California 
 \end_layout
 
 \begin_layout Standard
@@ -384,7 +397,7 @@ Improved existing product reliability tools, conceived and built full-stack
 
 \begin_layout Itemize
 Undergrad Research Assistant at University of Waterloo in May 2015 – September
- 2015 (5 months) Waterloo, Ontario
+ 2015 Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -409,7 +422,7 @@ target "https://www.shutterflyinc.com/about.html"
 
 
 \emph default
- in July 2014 – August 2014 (2 months) Redwood City, California
+ in July 2014 – August 2014 Redwood City, California
 \end_layout
 
 \begin_layout Standard
@@ -435,7 +448,7 @@ target "encircleapp.com"
 
 
 \emph default
- in May 2014 – June 2014 (2 months) Kitchener, Ontario
+ in May 2014 – June 2014 Kitchener, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -458,7 +471,7 @@ target "http://velocity.uwaterloo.ca/garage/"
 
 \begin_layout Itemize
 Software Tools Developer Intern at RIM (BlackBerry) in September 2013 –
- December 2013 (4 months) Ottawa, Ontario
+ December 2013 Ottawa, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -481,7 +494,7 @@ target "http://www.wlu.ca/"
 
 
 \emph default
- in September 2011 – April 2012 (8 months) Waterloo, Ontario
+ in September 2011 – April 2012 Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
