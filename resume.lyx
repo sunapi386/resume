@@ -80,7 +80,14 @@
 \begin_body
 
 \begin_layout Title
-Jason Sun's Resume
+\begin_inset CommandInset href
+LatexCommand href
+name "Jason Sun's Resume"
+target "https://github.com/sunapi386/resume/blob/master/resume.pdf"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
