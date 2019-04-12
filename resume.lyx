@@ -200,11 +200,12 @@ Profile
 \end_layout
 
 \begin_layout Itemize
-Full-stack autonomous system software engineer.
- Big data, mapping, localization, vehicle remote vehicle control, hybrid
- human-vehicle interactions, cloud to vehicle API.
- A generalist architect role who lead efforts to design and integrate multiple
- tech stacks to form new features, working in C++, Python, and Javascript.
+Systems software engineer.
+ Point cloud HD mapping, localization, vehicle remote vehicle control, hybrid
+ human-vehicle interactions, cloud to vehicle API, big data.
+ Generalist, design/architect role who lead efforts to design and integrate
+ multiple tech stacks to form new features, working in C++, Python, and
+ Javascript.
 \end_layout
 
 \begin_layout Itemize
@@ -353,21 +354,14 @@ target "http://autox.ai"
 \end_layout
 
 \begin_layout Standard
-Automating the mapping infrastructure for large scale map building used
- in lidar localization, with Hadoop, GraphQL, Node.js, React, GeoMesa DB.
- 
-\end_layout
-
-\begin_layout Standard
-Lead efforts to build API backend for location-based delivery service AutoX
+HD mapping infrastructure working with point clouds for large scale map
+ building used in localization, with Hadoop.
+ Lead efforts to build API backend for location-based delivery service AutoX
  apps.
+ GraphQL, Node.js, React.
  General architect role, lead team efforts to design and integrate tech
  stacks for product feature development using C++, Python, Javascript.
- 
-\end_layout
-
-\begin_layout Standard
-Full-stack autonomous system integration, low/high-speed delivery vehicles.
+ Full-stack autonomous system integration, low/high-speed delivery vehicles.
  Experienced in SLAM, LOAM, lidars, cameras, radars, ultrasonics.
  Created features like: remote control (networked video streaming and throttle/s
 teering control), hybrid human-and-AI decision making for unhandled driving
