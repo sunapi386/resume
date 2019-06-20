@@ -1,12 +1,12 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage[ddmmyyyy]{datetime}
+\usepackage[yyyymmdd]{datetime}
 \date{}
 \end_preamble
 \use_default_options true
@@ -25,6 +25,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -54,6 +56,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -66,7 +69,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -84,6 +90,7 @@
 LatexCommand href
 name "Jason Sun's Resume"
 target "https://github.com/sunapi386/resume/blob/master/resume.pdf"
+literal "false"
 
 \end_inset
 
@@ -113,6 +120,7 @@ LatexCommand href
 name "sunapi386@gmail.com"
 target "sunapi386@gmail.com?subject=Jason%20Resume"
 type "mailto:"
+literal "false"
 
 \end_inset
 
@@ -129,6 +137,7 @@ type "mailto:"
 LatexCommand href
 name "sunapi386.ca"
 target "http://sunapi386.ca"
+literal "false"
 
 \end_inset
 
@@ -145,6 +154,7 @@ target "http://sunapi386.ca"
 LatexCommand href
 name "linkedin.com/in/sunapi386"
 target "https://linkedin.com/in/sunapi386"
+literal "false"
 
 \end_inset
 
@@ -200,7 +210,7 @@ Profile
 \end_layout
 
 \begin_layout Itemize
-Systems software engineer.
+Robotic systems software engineer.
  Point cloud HD mapping, localization, vehicle remote vehicle control, hybrid
  human-vehicle interactions, cloud to vehicle API, big data.
  Generalist, design/architect role who lead efforts to design and integrate
@@ -215,30 +225,18 @@ Driven and self-motivated personality with many hobbies (see blog at
 \begin_inset CommandInset href
 LatexCommand href
 target "blog.sunapi386.ca"
+literal "false"
 
 \end_inset
 
 
 \emph default
 ).
- 
 \end_layout
 
 \begin_layout Itemize
-Over a decade of experience in coding, starting with scripting since 2004
- on 
-\emph on
-Slackware Linux, Arch Linux, Debian/Ubuntu
-\series bold
-\emph default
-,
-\emph on
- OS
-\series default
- X
-\emph default
-.
- 
+Over a decade of development experience since 2004 using: Slackware/Arch/Debian/
+Ubuntu and OS X.
 \end_layout
 
 \begin_layout Itemize
@@ -247,6 +245,7 @@ Experienced working in startup environments, at
 LatexCommand href
 name "Velocity Residence"
 target "http://velocity.uwaterloo.ca/residence/"
+literal "false"
 
 \end_inset
 
@@ -255,6 +254,7 @@ target "http://velocity.uwaterloo.ca/residence/"
 LatexCommand href
 name "Velocity Garage"
 target "http://velocity.uwaterloo.ca/garage/"
+literal "false"
 
 \end_inset
 
@@ -270,6 +270,7 @@ Conferences:
 LatexCommand href
 name "DEFCON (#25)"
 target "https://www.defcon.org/"
+literal "false"
 
 \end_inset
 
@@ -278,6 +279,7 @@ target "https://www.defcon.org/"
 LatexCommand href
 name "DEFCON (#22)"
 target "https://www.defcon.org/"
+literal "false"
 
 \end_inset
 
@@ -290,13 +292,14 @@ target "https://www.defcon.org/"
 LatexCommand href
 name "2600 Hope 9"
 target "http://www.hopenumbernine.net/"
+literal "false"
 
 \end_inset
 
 
 \emph default
-, PennApps 2013, MHacks 2014, HackMIT 2014, and HackZurich 2014.
- 
+, PennApps 2013 (prize), MHacks 2014, HackMIT 2014, and HackZurich 2014
+ (prize).
 \end_layout
 
 \begin_layout Subsection*
@@ -310,31 +313,56 @@ Education
 LatexCommand href
 name "University of Waterloo"
 target "https://cs.uwaterloo.ca/"
+literal "false"
 
 \end_inset
 
 
 \emph default
- Bachelor of Computer Science, 2015.
- 
+ Bachelor of Computer Science 2015.
 \end_layout
 
 \begin_layout Itemize
-Computer Science Exchange Student at
+
 \emph on
- 
 \begin_inset CommandInset href
 LatexCommand href
 name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
 target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
+literal "false"
 
 \end_inset
 
+
+\emph default
+ Computer Science Exchange Student
+\emph on
 .
 \end_layout
 
 \begin_layout Subsection*
 Work Experience
+\end_layout
+
+\begin_layout Itemize
+Software Development Engineer - Robotics 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Amazon Lab126"
+target "https://en.wikipedia.org/wiki/Amazon_Lab126"
+literal "false"
+
+\end_inset
+
+
+\emph default
+ in June 2019 – present Sunnyvale, California 
+\end_layout
+
+\begin_layout Standard
+Stealth project.
 \end_layout
 
 \begin_layout Itemize
@@ -345,12 +373,14 @@ Autonomous Systems Engineer
 LatexCommand href
 name "AutoX Technologies Inc."
 target "http://autox.ai"
+literal "false"
 
 \end_inset
 
 
 \emph default
- in August 2017 – present San Jose, California 
+ in August 2017 – May 2019 N.
+ San Jose, California
 \end_layout
 
 \begin_layout Standard
@@ -368,7 +398,6 @@ teering control), hybrid human-and-AI decision making for unhandled driving
  scenarios (in patent process), design and implement vehicle-to-cloud APIs
  (LTE networked), embedded systems with touchscreen UI.
  Cluster computing automation using Docker, Kubernetes, ROS (Protobuf).
- 
 \end_layout
 
 \begin_layout Itemize
@@ -379,6 +408,7 @@ Software Engineer
 LatexCommand href
 name "Apple Inc."
 target "www.apple.com"
+literal "false"
 
 \end_inset
 
@@ -418,6 +448,7 @@ Software Engineer Intern
 LatexCommand href
 name "Shutterfly Inc."
 target "https://www.shutterflyinc.com/about.html"
+literal "false"
 
 \end_inset
 
@@ -444,6 +475,7 @@ Software Developer at
 LatexCommand href
 name "Encircle Inc."
 target "encircleapp.com"
+literal "false"
 
 \end_inset
 
@@ -461,6 +493,7 @@ Worked on the website (CoffeeScript & Python Tornado server) and Android
 LatexCommand href
 name "Velocity Garage"
 target "http://velocity.uwaterloo.ca/garage/"
+literal "false"
 
 \end_inset
 
@@ -490,6 +523,7 @@ Physics Teaching Assistant at
 LatexCommand href
 name "Wilfrid Laurier University"
 target "http://www.wlu.ca/"
+literal "false"
 
 \end_inset
 
@@ -556,6 +590,7 @@ tion of well known concurrency control mechanisms, such as monitors.
 LatexCommand href
 name "uC++"
 target "http://plg.uwaterloo.ca/usystem/uC++.html"
+literal "false"
 
 \end_inset
 
@@ -608,6 +643,7 @@ Awards and Achievements
 LatexCommand href
 name "HackZurich 2014"
 target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
+literal "false"
 
 \end_inset
 
@@ -621,6 +657,7 @@ target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmei
 LatexCommand href
 name ".GIFMeIt"
 target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
+literal "false"
 
 \end_inset
 
@@ -636,6 +673,7 @@ target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
 LatexCommand href
 name "PennApps 2013"
 target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
+literal "false"
 
 \end_inset
 
@@ -649,6 +687,7 @@ target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmo
 LatexCommand href
 name "Marmoset"
 target "http://youtu.be/-tEexMRq7fY"
+literal "false"
 
 \end_inset
 
