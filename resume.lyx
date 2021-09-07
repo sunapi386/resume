@@ -200,12 +200,33 @@ Profile
 \end_layout
 
 \begin_layout Itemize
-Systems software engineer.
- Point cloud HD mapping, localization, vehicle remote vehicle control, hybrid
- human-vehicle interactions, cloud to vehicle API, big data.
- Generalist, design/architect role who lead efforts to design and integrate
- multiple tech stacks to form new features, working in C++, Python, and
- Javascript.
+Open to senior software engineer in systems, full stack, and robotics related
+ fields.
+\end_layout
+
+\begin_layout Itemize
+Experienced in leading projects, project management, leading cross functional
+ team efforts, design documents, building org-wide processes.
+\end_layout
+
+\begin_layout Itemize
+Wide range of software expertise, as an architect role, and leading efforts
+ to design and integrate multiple tech stacks to form new features.
+ 
+\end_layout
+
+\begin_layout Itemize
+Broke down large tasks into designs, delegated pieces to cross team and
+ team engineers.
+\end_layout
+
+\begin_layout Itemize
+Experienced with complete product development lifecycle, from conception,
+ to ramp up for shipping, to support and maintainence for end of life.
+\end_layout
+
+\begin_layout Itemize
+Screened, interviewed, mentored, and managed junior engineers and interns.
 \end_layout
 
 \begin_layout Itemize
@@ -225,78 +246,17 @@ target "blog.sunapi386.ca"
 \end_layout
 
 \begin_layout Itemize
-Over a decade of experience in coding, starting with scripting since 2004
- on 
+Have been coding since 2004 in the early days on 
 \emph on
-Slackware Linux, Arch Linux, Debian/Ubuntu
-\series bold
-\emph default
-,
-\emph on
- OS
-\series default
- X
+Slackware Linux and Arch Linux
 \emph default
 .
  
 \end_layout
 
 \begin_layout Itemize
-Experienced working in startup environments, at 
-\begin_inset CommandInset href
-LatexCommand href
-name "Velocity Residence"
-target "http://velocity.uwaterloo.ca/residence/"
-
-\end_inset
-
- and 
-\begin_inset CommandInset href
-LatexCommand href
-name "Velocity Garage"
-target "http://velocity.uwaterloo.ca/garage/"
-
-\end_inset
-
-
-\emph on
-.
- 
-\emph default
-Conferences: 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "DEFCON (#25)"
-target "https://www.defcon.org/"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "DEFCON (#22)"
-target "https://www.defcon.org/"
-
-\end_inset
-
-
-\emph default
-, 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "2600 Hope 9"
-target "http://www.hopenumbernine.net/"
-
-\end_inset
-
-
-\emph default
-, PennApps 2013, MHacks 2014, HackMIT 2014, and HackZurich 2014.
- 
+Experienced working in fast paced startup environments, as well as large
+ corporates.
 \end_layout
 
 \begin_layout Subsection*
@@ -316,11 +276,7 @@ target "https://cs.uwaterloo.ca/"
 
 \emph default
  Bachelor of Computer Science, 2015.
- 
-\end_layout
-
-\begin_layout Itemize
-Computer Science Exchange Student at
+ Computer Science Exchange Student at
 \emph on
  
 \begin_inset CommandInset href
@@ -338,6 +294,20 @@ Work Experience
 \end_layout
 
 \begin_layout Itemize
+Software Engineer 
+\emph on
+Amazon Lab 126
+\emph default
+ June 2019 – present Sunnyvale, California 
+\end_layout
+
+\begin_layout Standard
+New stealth project, consumer electronics field.
+ Cannot disclose the technology stack.
+ Worked in C++, Java, Python, Javascript, Shellscripts.
+\end_layout
+
+\begin_layout Itemize
 Autonomous Systems Engineer 
 \emph on
 
@@ -350,24 +320,42 @@ target "http://autox.ai"
 
 
 \emph default
- in August 2017 – present San Jose, California 
+ in August 2017 – May 2019 San Jose, California 
 \end_layout
 
 \begin_layout Standard
 HD mapping infrastructure working with point clouds for large scale map
  building used in localization, with Hadoop.
- Lead efforts to build API backend for location-based delivery service AutoX
+ 
+\end_layout
+
+\begin_layout Standard
+Lead efforts to build API backend for location-based delivery service AutoX
  apps.
  GraphQL, Node.js, React.
  General architect role, lead team efforts to design and integrate tech
  stacks for product feature development using C++, Python, Javascript.
  Full-stack autonomous system integration, low/high-speed delivery vehicles.
- Experienced in SLAM, LOAM, lidars, cameras, radars, ultrasonics.
- Created features like: remote control (networked video streaming and throttle/s
-teering control), hybrid human-and-AI decision making for unhandled driving
+ 
+\end_layout
+
+\begin_layout Standard
+Experience understanding of SLAM, LOAM, lidars, cameras, radars, ultrasonics.
+ 
+\end_layout
+
+\begin_layout Standard
+Delivered features: remote control (networked video streaming and throttle/steer
+ing control), hybrid human-and-AI decision making for unhandled driving
  scenarios (in patent process), design and implement vehicle-to-cloud APIs
  (LTE networked), embedded systems with touchscreen UI.
- Cluster computing automation using Docker, Kubernetes, ROS (Protobuf).
+ 
+\end_layout
+
+\begin_layout Standard
+Cluster computing automation using Docker, Kubernetes, ROS (Protobuf).
+ Point cloud HD mapping, localization, vehicle remote vehicle control, hybrid
+ human-vehicle interactions, cloud to vehicle API, big data.
  
 \end_layout
 
@@ -509,16 +497,14 @@ Related Classes
 \end_layout
 
 \begin_layout Itemize
-Real-time Operating Systems (CS 452): One project for the entire semester,
- which is to build a real-time microkernel and write user programs to control
- model trains on a track.
- The course is famously called the Trains course.
+Real-time Operating Systems (CS 452): Built real-time operating system from
+ scratch to control model trains on a track.
+ 
 \end_layout
 
 \begin_layout Itemize
-Artificial Intelligence (CS 486): Worked on projects involving machine learning,
- learning probabilistic models, Bayesian networks, search and constraint
- satisfaction problems.
+Artificial Intelligence (CS 486): Machine learning, probabilistic models,
+ intelligent agents.
  
 \end_layout
 
@@ -529,132 +515,16 @@ Advanced Algorithms (EPFL CS 450): A graduate course in algorithms, learned
 \end_layout
 
 \begin_layout Itemize
-Computer Graphics (EPFL CS 440): Half the course was about graphics rendering
- techniques, and the second half about animation techinques.
- Implmented rendering methods into a ray-tracer (called 
-\emph on
-Nori
-\emph default
-), and explored animation modeling and some fluid mechanics.
-\end_layout
-
-\begin_layout Itemize
-AI: Intelligent Agent class (EPFL CS 430): Developed intelligent agents
- to pickup and deliver parcels in a simulated environment, with intelligent
- behaviours: reactive, deliberative, centralized, decentralized, and auctioning.
+Distributed Systems (CS 454): Studies on concurrency, problems and solutions
+ with distributed systems in a network.
  
 \end_layout
 
 \begin_layout Itemize
-Concurrency & Parallel Programming (CS 343): Multithreaded quicksort, implementa
-tion of well known concurrency control mechanisms, such as monitors.
- Language is in 
-\series bold
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "uC++"
-target "http://plg.uwaterloo.ca/usystem/uC++.html"
-
-\end_inset
-
-
-\series default
-\emph default
-, a concurrent dialect of C++, developed at University of Waterloo.
- 
-\end_layout
-
-\begin_layout Itemize
-Distributed Systems (CS 454): Built a remote procedure call library in C++
- on top of TCP, both client and server side.
- Implemented the go-back-N reliable transmission protocol, over UDP using
- Java.
- 
-\end_layout
-
-\begin_layout Itemize
-Computer Security (CS 458): Created exploits in 
-\series bold
-C
-\series default
- using techniques such as buffer overflow, and format strings.
- Implemented an intrusion detection program which parses output from tcpdump
- to detect spoofed packets, malicious hosts, and worms.
- 
-\end_layout
-
-\begin_layout Itemize
-Compilers (CS 251): Built a MIPS compiler in C++, parsing a subset of C
- keywords and generating assembly (MIPS) code.
-\end_layout
-
-\begin_layout Itemize
-Computer Architecture (CS 450): Designed a pipelined CPU in Verilog, supporting
+Computer Architecture (CS 450): Designed CPU pipeline in Verilog, supporting
  8 instructions for computer architecture class.
  This is sufficient to run machine code produced by the MIPS compiler, from
  the CS 251 compilers class.
-\end_layout
-
-\begin_layout Subsection*
-Awards and Achievements
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "HackZurich 2014"
-target "https://www.hackerleague.org/hackathons/hackzurich-2014/hacks/dot-gifmeit"
-
-\end_inset
-
-
-\emph default
- at ETH Zürich, received Tamedia Digital Award (all-inclusive team trip
- to visit startups in Berlin, Germany) with 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name ".GIFMeIt"
-target "https://www.youtube.com/watch?v=Kffhm6LqJpg"
-
-\end_inset
-
-
-\emph default
-: An iOS app that lets a user easily capture and share GIF images.
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "PennApps 2013"
-target "https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/marmoset"
-
-\end_inset
-
-
-\emph default
- at University of Pennsylvania, received Twilio's Communication Award ($500)
- with 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Marmoset"
-target "http://youtu.be/-tEexMRq7fY"
-
-\end_inset
-
-
-\emph default
-: A chatbot to respond to your chosen Facebook friends without them knowing.
 \end_layout
 
 \end_body
