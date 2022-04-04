@@ -210,21 +210,22 @@ Profile
 \end_layout
 
 \begin_layout Standard
-A generalist with expertise in a wide range of software stacks, leading
- cross team efforts to design and integrate multiple tech stacks to form
- new features in an architect role.
- 
-\end_layout
-
-\begin_layout Itemize
-Experience in leading projects, project management, leading cross functional
- team efforts, design docs, building org-wide processes.
+A generalist with interest and experience in blockchain, robotics, and fullstack
+ web.
+ Software architect having in a wide range of software stacks, leading cross
+ team efforts to design and integrate multiple tech stacks to form new features.
  
 \end_layout
 
 \begin_layout Itemize
 Experience in real time systems, full stack web, full stack robotics, cryptocurr
 ency blockchain.
+\end_layout
+
+\begin_layout Itemize
+Experience in leading projects, project management, leading cross functional
+ team efforts, design docs, building org-wide processes.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -301,7 +302,7 @@ literal "false"
 
 \emph default
  Bachelor of Computer Science, 2015.
- Computer Science Exchange Student at
+ Exchange at
 \emph on
  
 \begin_inset CommandInset href
@@ -320,11 +321,27 @@ Work Experience
 \end_layout
 
 \begin_layout Itemize
+Co-Founder 
+\emph on
+Roamverse
+\emph default
+ Project October 2021 — present
+\end_layout
+
+\begin_layout Standard
+Roamverse develops projects on Cardano blockchain.
+ This includes being a network operator running a proof-of-stake pool, and
+ created a NFT art collection.
+ My role is anything technical, I work with a co-founder who runs the business
+ and operations.
+\end_layout
+
+\begin_layout Itemize
 Software Engineer 
 \emph on
 Amazon Lab 126
 \emph default
- June 2019 – present Sunnyvale, California 
+ June 2019 — January 2022 Sunnyvale, California 
 \end_layout
 
 \begin_layout Standard
@@ -406,7 +423,7 @@ literal "false"
 
 
 \emph default
- in November 2015 – January 2017 Cupertino, California 
+ in November 2015 — January 2017 Cupertino, California 
 \end_layout
 
 \begin_layout Standard
@@ -419,7 +436,7 @@ Improved existing product reliability tools, conceived and built full-stack
 \end_layout
 
 \begin_layout Itemize
-Undergrad Research Assistant at University of Waterloo in May 2015 – September
+Undergrad Research Assistant at University of Waterloo in May 2015 — September
  2015 Waterloo, Ontario
 \end_layout
 
@@ -446,7 +463,7 @@ literal "false"
 
 
 \emph default
- in July 2014 – August 2014 Redwood City, California
+ in July 2014 — August 2014 Redwood City, California
 \end_layout
 
 \begin_layout Standard
@@ -473,7 +490,7 @@ literal "false"
 
 
 \emph default
- in May 2014 – June 2014 Kitchener, Ontario
+ in May 2014 — June 2014 Kitchener, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -496,7 +513,7 @@ literal "false"
 \end_layout
 
 \begin_layout Itemize
-Software Tools Developer Intern at RIM (BlackBerry) in September 2013 –
+Software Tools Developer Intern at RIM (BlackBerry) in September 2013 —
  December 2013 Ottawa, Ontario
 \end_layout
 
@@ -521,48 +538,13 @@ literal "false"
 
 
 \emph default
- in September 2011 – April 2012 Waterloo, Ontario
+ in September 2011 — April 2012 Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
 Developed a spectrometer reading program in Python, using the pySerial library,
  to automate the reading of lab samples, and generate a spreadsheet file.
  Supports multiple spectrometer readings in parallel.
-\end_layout
-
-\begin_layout Subsection*
-Related Classes
-\end_layout
-
-\begin_layout Itemize
-Real-time Operating Systems (CS 452): Built real-time operating system from
- scratch to control model trains on a track.
- 
-\end_layout
-
-\begin_layout Itemize
-Artificial Intelligence (CS 486): Machine learning, probabilistic models,
- intelligent agents.
- 
-\end_layout
-
-\begin_layout Itemize
-Advanced Algorithms (EPFL CS 450): A graduate course in algorithms, learned
- theoritical techniques and their applications to solve problems.
- Interesting techniques such as network flow, randomization, dynamic programming.
-\end_layout
-
-\begin_layout Itemize
-Distributed Systems (CS 454): Studies on concurrency, problems and solutions
- with distributed systems in a network.
- 
-\end_layout
-
-\begin_layout Itemize
-Computer Architecture (CS 450): Designed CPU pipeline in Verilog, supporting
- 8 instructions for computer architecture class.
- This is sufficient to run machine code produced by the MIPS compiler, from
- the CS 251 compilers class.
 \end_layout
 
 \end_body
