@@ -218,70 +218,47 @@ A generalist with interest and experience in blockchain, robotics, and fullstack
 \end_layout
 
 \begin_layout Itemize
-Experience in real time systems, full stack web, full stack robotics, cryptocurr
-ency blockchain.
+Experience in Real-Time Systems, Full-Stack Web, Full-Stack Robotics, Blockchain
+, and Fintech.
 \end_layout
 
 \begin_layout Itemize
-Experience in leading projects, project management, leading cross functional
- team efforts, design docs, building org-wide processes.
- 
+Proven ability to lead projects, manage project teams, create design documents,
+ and build organizational-wide processes.
 \end_layout
 
 \begin_layout Itemize
-Mentor and manage engineers/interns, and interview candidates.
- 
+Mentoring and managing engineers and interns, as well as interviewing and
+ assessing candidates.
 \end_layout
 
 \begin_layout Itemize
-Wide software stack expertise, architect function, lead design & integration
- for multiple tech stacks.
- 
+Extensive software stack knowledge and experience in architecting, leading
+ design and integration, and creating feature design proposals.
 \end_layout
 
 \begin_layout Itemize
-Create feature designs proposals, break down and delegate components to
- cross function teams.
- 
+Demonstrated success in the product development lifecycle, from conception
+ to prototype to end of life support and maintenance at both AutoX and Amazon,
+ respectively.
 \end_layout
 
 \begin_layout Itemize
-Complete product development lifecycle experience.
- From conception, to prototype, to end of life support maintenance; at AutoX
- Amazon and Apple, respectively.
- 
+Adaptability to both a fast-paced startup culture and a large corporate
+ environment.
 \end_layout
 
 \begin_layout Itemize
-Experience in fast paced startup culture and large corporation.
- 
+Over 15 years of development experience, including the use of Slackware
+ Linux and Arch Linux.
 \end_layout
 
 \begin_layout Itemize
-Developer since 2004 using Slackware Linux and Arch Linux.
- 
+Currently a cryptocurrency stake pool operator and developer.
 \end_layout
 
 \begin_layout Itemize
-Current cryptocurrency stake pool operator and developer.
- 
-\end_layout
-
-\begin_layout Itemize
-Driven and self-motivated personality with many hobbies (see blog at
-\emph on
- 
-\begin_inset CommandInset href
-LatexCommand href
-target "blog.sunapi386.ca"
-literal "false"
-
-\end_inset
-
-
-\emph default
-).
- 
+Self-driven and motivated with a diverse set of hobbies (see [blog.sunapi386.ca]).
 \end_layout
 
 \begin_layout Subsection*
@@ -325,15 +302,20 @@ Co-Founder
 \emph on
 Roamverse
 \emph default
- Project October 2021 — present
+ October 2021 — present
 \end_layout
 
 \begin_layout Standard
-Roamverse develops projects on Cardano blockchain.
- This includes being a network operator running a proof-of-stake pool, and
- created a NFT art collection.
- My role is anything technical, I work with a co-founder who runs the business
- and operations.
+Roamverse is an umbrella company that deals with blockchain, fintech and
+ more.
+ We have created a collection of NFT art, a stakepool on the Cardano blockchain,
+ and provide fully automated algorithmic trading strategies utilizing data
+ science and machine learning to analyze data faster than the general public.
+ We also perform technical analysis on financial instruments such as options,
+ earnings reports, and volatility analysis.
+ Our technologies include bare metal hardware and cloud deployments, blockchain
+ infrastructures, database migrations and administration with SQLite/Postgres,
+ machine learning in Tensorflow, and fullstack React.
 \end_layout
 
 \begin_layout Itemize
@@ -345,15 +327,13 @@ Amazon Lab 126
 \end_layout
 
 \begin_layout Standard
-Worked on developing Amazon Astro.
- It's a home robot which it enables Alexa to take a physical form and have
- mobility.
- Develop platform infrastructure on real time mapping pipeline.
- Worked on this product for over 2 years, from prototype to production.
- Use ROS, C++, Python Java, full stack web.
- Mentored junior engineers and interns.
- Create new architecture and drive cross functional team features.
- 
+Develop the Amazon Astro, a home robot that enables Alexa to take a physical
+ form and have mobility.
+ Also developed platform infrastructure on a real time mapping pipeline
+ and worked on the product for over two years, from prototype to production.
+ Used ROS, C++, Python, Java, and full stack web technologies.
+ Mentored engineers and interns, creating new architectures and driving
+ cross functional team features.
 \end_layout
 
 \begin_layout Itemize
@@ -390,7 +370,8 @@ Lead efforts to build API backend for location-based delivery service AutoX
 \end_layout
 
 \begin_layout Standard
-Experience understanding of SLAM, LOAM, lidars, cameras, radars, ultrasonics.
+Experience developing off hardware sensors for SLAM, LOAM using lidars,
+ cameras, radars, ultrasonics.
  
 \end_layout
 
