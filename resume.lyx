@@ -210,55 +210,48 @@ Profile
 \end_layout
 
 \begin_layout Standard
-A generalist with interest and experience in blockchain, robotics, and fullstack
- web.
- Software architect having in a wide range of software stacks, leading cross
- team efforts to design and integrate multiple tech stacks to form new features.
- 
+Generalist software architect.
+ Experience in wide range of software stacks, leading cross team efforts
+ to design and integrate multiple tech stacks to form new products.
 \end_layout
 
 \begin_layout Itemize
-Experience in Real-Time Systems, Full-Stack Web, Full-Stack Robotics, Blockchain
-, and Fintech.
+Experience in full stack web, real-time robotics infrastructure, blockchain,
+ and fintech.
 \end_layout
 
 \begin_layout Itemize
-Proven ability to lead projects, manage project teams, create design documents,
- and build organizational-wide processes.
+Lead projects, manage project teams, organizational-wide processes.
 \end_layout
 
 \begin_layout Itemize
-Mentoring and managing engineers and interns, as well as interviewing and
- assessing candidates.
+Mentor and managing engineers and interns, interviewing, assessing candidates.
 \end_layout
 
 \begin_layout Itemize
-Extensive software stack knowledge and experience in architecting, leading
- design and integration, and creating feature design proposals.
+Broad software experience in architecting, leading design and integration,
+ and creating feature design proposals.
 \end_layout
 
 \begin_layout Itemize
-Demonstrated success in the product development lifecycle, from conception
- to prototype to end of life support and maintenance at both AutoX and Amazon,
- respectively.
+Experience in all product development lifecycle: conception to prototype,
+ to end of life, support and maintenance.
 \end_layout
 
 \begin_layout Itemize
-Adaptability to both a fast-paced startup culture and a large corporate
- environment.
+Experience in fast-paced startup culture and a large corporate environment.
 \end_layout
 
 \begin_layout Itemize
-Over 15 years of development experience, including the use of Slackware
- Linux and Arch Linux.
+20 years of development experience.
 \end_layout
 
 \begin_layout Itemize
-Currently a cryptocurrency stake pool operator and developer.
+Experience in blockchain stake pool operator and development.
 \end_layout
 
 \begin_layout Itemize
-Self-driven and motivated with a diverse set of hobbies (see [blog.sunapi386.ca]).
+Self-driven and motivated.
 \end_layout
 
 \begin_layout Subsection*
@@ -298,24 +291,44 @@ Work Experience
 \end_layout
 
 \begin_layout Itemize
+Founder 
+\emph on
+Adanomad
+\emph default
+ March 2022 – present Remote
+\end_layout
+
+\begin_layout Standard
+Adanomad is a tech consulting company, working with startups based in San
+ Francisco to accelerate their product development.
+\end_layout
+
+\begin_layout Itemize
+Co-Founder Technical Trader October 2021 — present Remote 
+\end_layout
+
+\begin_layout Standard
+Trades from technical analysis on financial instruments such as options,
+ earnings reports, and volatility analysis.
+ Our technologies include bare metal hardware and cloud deployments, blockchain
+ infrastructures, database migrations and administration with SQLite/Postgres,
+ fullstack React, and stock / options data analysis in Python with Pandas,
+ NumPy, Tensorflow.
+ Trading strategies utilizing data science and machine learning to analyze
+ data faster than the general public.
+\end_layout
+
+\begin_layout Itemize
 Co-Founder 
 \emph on
 Roamverse
 \emph default
- October 2021 — present
+ October 2021 — present Remote
 \end_layout
 
 \begin_layout Standard
-Roamverse is an umbrella company that deals with blockchain, fintech and
- more.
- We have created a collection of NFT art, a stakepool on the Cardano blockchain,
- and provide fully automated algorithmic trading strategies utilizing data
- science and machine learning to analyze data faster than the general public.
- We also perform technical analysis on financial instruments such as options,
- earnings reports, and volatility analysis.
- Our technologies include bare metal hardware and cloud deployments, blockchain
- infrastructures, database migrations and administration with SQLite/Postgres,
- machine learning in Tensorflow, and fullstack React.
+Created a collection of NFT art, a stakepool on the Cardano blockchain.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -404,7 +417,7 @@ literal "false"
 
 
 \emph default
- in November 2015 — January 2017 Cupertino, California 
+ in November 2015 — January 2017 in Cupertino, California 
 \end_layout
 
 \begin_layout Standard
@@ -418,7 +431,7 @@ Improved existing product reliability tools, conceived and built full-stack
 
 \begin_layout Itemize
 Undergrad Research Assistant at University of Waterloo in May 2015 — September
- 2015 Waterloo, Ontario
+ 2015 in Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
@@ -475,8 +488,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Worked on the website (CoffeeScript & Python Tornado server) and Android
- app, at a 3 engineer startup in the
+Fullstack web developer (CoffeeScript & Python Tornado server) and Android
+ app, 3 engineer startup in the
 \emph on
  
 \begin_inset CommandInset href
@@ -519,7 +532,7 @@ literal "false"
 
 
 \emph default
- in September 2011 — April 2012 Waterloo, Ontario
+ in September 2011 - April 2012 in Waterloo, Ontario
 \end_layout
 
 \begin_layout Standard
