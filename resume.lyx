@@ -255,56 +255,37 @@ Self-driven and motivated.
 \end_layout
 
 \begin_layout Subsection*
-Education 
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-\begin_inset CommandInset href
-LatexCommand href
-name "University of Waterloo"
-target "https://cs.uwaterloo.ca/"
-literal "false"
-
-\end_inset
-
-
-\emph default
- Bachelor of Computer Science, 2015.
- Exchange at
-\emph on
- 
-\begin_inset CommandInset href
-LatexCommand href
-name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
-target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection*
 Work Experience
 \end_layout
 
 \begin_layout Itemize
 Founder 
 \emph on
-Adanomad
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Ada Nomad"
+target "https://adanomad.com/"
+literal "false"
+
+\end_inset
+
+
 \emph default
- March 2022 – present Remote
+ March 2023 – present Remote
 \end_layout
 
 \begin_layout Standard
-Adanomad is a tech consulting company, working with startups based in San
- Francisco to accelerate their product development.
+Adanomad is a software consulting and contracting firm to accelerate and
+ guide product development.
+ We're driven by a shared mission: to break down technical barriers, democratize
+ technology adoption, and foster a thriving community of skilled developers.
+ We tackle real-world challenges in areas like robotics, fintech, and AI.
 \end_layout
 
 \begin_layout Itemize
-Co-Founder Technical Trader October 2021 — present Remote 
+Co-Founder crystaltrade.ai Technical Trader October 2021 — present Remote
+ 
 \end_layout
 
 \begin_layout Standard
@@ -321,14 +302,24 @@ Trades from technical analysis on financial instruments such as options,
 \begin_layout Itemize
 Co-Founder 
 \emph on
-Roamverse
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Roamverse"
+target "https://roamverse.io/"
+literal "false"
+
+\end_inset
+
+
 \emph default
  October 2021 — present Remote
 \end_layout
 
 \begin_layout Standard
-Created a collection of NFT art, a stakepool on the Cardano blockchain.
- 
+Created a collection of NFT art and stakepool operator on the Cardano blockchain.
+ Projects around building a metaverse for roamers and digital nomads on
+ the Cardano blockchain.
 \end_layout
 
 \begin_layout Itemize
@@ -539,6 +530,38 @@ literal "false"
 Developed a spectrometer reading program in Python, using the pySerial library,
  to automate the reading of lab samples, and generate a spreadsheet file.
  Supports multiple spectrometer readings in parallel.
+\end_layout
+
+\begin_layout Subsection*
+Education
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "University of Waterloo"
+target "https://cs.uwaterloo.ca/"
+literal "false"
+
+\end_inset
+
+
+\emph default
+ Bachelor of Computer Science, 2015.
+ Exchange at
+\emph on
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
+target "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \end_body
