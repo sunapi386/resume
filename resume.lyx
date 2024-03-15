@@ -117,8 +117,8 @@ literal "false"
 \size small
 \begin_inset CommandInset href
 LatexCommand href
-name "sunapi386@gmail.com"
-target "sunapi386@gmail.com?subject=Jason%20Resume"
+name "jason@adanomad.com"
+target "jason@adanomad.com?subject=Jason%20Resume"
 type "mailto:"
 literal "false"
 
@@ -135,8 +135,8 @@ literal "false"
 \begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-name "sunapi386.ca"
-target "http://sunapi386.ca"
+name "adanomad.com"
+target "http://adanomad.com"
 literal "false"
 
 \end_inset
@@ -243,7 +243,7 @@ Experience in fast-paced startup culture and a large corporate environment.
 \end_layout
 
 \begin_layout Itemize
-20 years of development experience.
+20+ years of development experience.
 \end_layout
 
 \begin_layout Itemize
@@ -264,6 +264,34 @@ Founder
 
 \begin_inset CommandInset href
 LatexCommand href
+name "AskRemotely"
+target "https://askremotely.com/"
+literal "false"
+
+\end_inset
+
+
+\emph default
+ November 2023 – present Remote
+\end_layout
+
+\begin_layout Standard
+AskRemotely is a pioneering AI-driven knowledge management platform to simplify
+ the way individuals and organizations interact with vast amounts of information
+, extracting value from data, transforming complex information into accessible,
+ actionable insights.
+ As the founder and AI developer at AskRemotely, my role encompasses a wide
+ array of responsibilities, from conceptualizing the initial idea and product
+ development to strategizing for market penetration and leading a talented
+ team towards our vision.
+\end_layout
+
+\begin_layout Itemize
+Founder 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
 name "Ada Nomad"
 target "https://adanomad.com/"
 literal "false"
@@ -276,16 +304,19 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Adanomad is a software consulting and contracting firm to accelerate and
- guide product development.
- We're driven by a shared mission: to break down technical barriers, democratize
- technology adoption, and foster a thriving community of skilled developers.
- We tackle real-world challenges in areas like robotics, fintech, and AI.
+Adanomad is an software consulting and contracting firm with AI focus to
+ accelerate product development.
+ As the founder of Ada Nomad, I lead a cutting-edge software consulting
+ firm focused on AI and technological innovations.
+ My journey from Silicon Valley to founding Ada Nomad has been fueled by
+ a passion for pioneering in artificial intelligence and software development.
+ I'm deeply involved in setting our strategic direction, building key partnershi
+ps, and ensuring excellence in all our projects.
+ 
 \end_layout
 
 \begin_layout Itemize
-Co-Founder crystaltrade.ai Technical Trader October 2021 — present Remote
- 
+Co-Founder CrystalTrade Technical Trader September 2022 — March 2023
 \end_layout
 
 \begin_layout Standard
@@ -313,7 +344,7 @@ literal "false"
 
 
 \emph default
- October 2021 — present Remote
+ October 2021 — November 2022
 \end_layout
 
 \begin_layout Standard
