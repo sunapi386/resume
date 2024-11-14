@@ -117,8 +117,8 @@ literal "false"
 \size small
 \begin_inset CommandInset href
 LatexCommand href
-name "jason@adanomad.com"
-target "jason@adanomad.com?subject=Jason%20Resume"
+name "sunapi386@gmail.com"
+target "sunapi386@gmail.com?subject=Jason%20Resume"
 type "mailto:"
 literal "false"
 
@@ -135,8 +135,8 @@ literal "false"
 \begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-name "adanomad.com"
-target "http://adanomad.com"
+name "sunapi386.ca"
+target "https://sunapi386.ca"
 literal "false"
 
 \end_inset
@@ -210,18 +210,34 @@ Profile
 \end_layout
 
 \begin_layout Standard
-Generalist software architect.
- Experience in wide range of software stacks, leading cross team efforts
- to design and integrate multiple tech stacks to form new products.
+Experienced AI and software engineering leader with a strong background
+ in building and deploying production-quality LLM/RAG/agent applications.
+ Passionate about applied AI and translating customer needs into practical
+ solutions.
+ Proven track record of leading teams, contributing to open-source projects,
+ and driving innovation in fast-paced startup environments.
+
 \end_layout
 
 \begin_layout Itemize
-Experience in full stack web, real-time robotics infrastructure, blockchain,
- and fintech.
+Production experience with LLMs, RAG, and AI agents
 \end_layout
 
 \begin_layout Itemize
-Lead projects, manage project teams, organizational-wide processes.
+Full-stack development (React, Next.js, TypeScript, GraphQL, Python, Pydantic,
+ Poetry, FastAPI)
+\end_layout
+
+\begin_layout Itemize
+Cloud platforms (AWS, GCP, Azure)
+\end_layout
+
+\begin_layout Itemize
+Machine learning and data science
+\end_layout
+
+\begin_layout Itemize
+Excellent communication and customer-facing skills
 \end_layout
 
 \begin_layout Itemize
@@ -242,57 +258,17 @@ Experience in all product development lifecycle: conception to prototype,
 Experience in fast-paced startup culture and a large corporate environment.
 \end_layout
 
-\begin_layout Itemize
-20+ years of development experience.
-\end_layout
-
-\begin_layout Itemize
-Experience in blockchain stake pool operator and development.
-\end_layout
-
-\begin_layout Itemize
-Self-driven and motivated.
-\end_layout
-
 \begin_layout Subsection*
 Work Experience
 \end_layout
 
 \begin_layout Itemize
-Founder 
+Principle Consultant
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
-name "AskRemotely"
-target "https://askremotely.com/"
-literal "false"
-
-\end_inset
-
-
-\emph default
- November 2023 – present Remote
-\end_layout
-
-\begin_layout Standard
-AskRemotely is a pioneering AI-driven knowledge management platform to simplify
- the way individuals and organizations interact with vast amounts of information
-, extracting value from data, transforming complex information into accessible,
- actionable insights.
- As the founder and AI developer at AskRemotely, my role encompasses a wide
- array of responsibilities, from conceptualizing the initial idea and product
- development to strategizing for market penetration and leading a talented
- team towards our vision.
-\end_layout
-
-\begin_layout Itemize
-Founder 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Ada Nomad"
+name "Adanomad"
 target "https://adanomad.com/"
 literal "false"
 
@@ -300,57 +276,37 @@ literal "false"
 
 
 \emph default
- March 2023 – present Remote
+ March 2023 – present
 \end_layout
 
 \begin_layout Standard
-Adanomad is an software consulting and contracting firm with AI focus to
- accelerate product development.
- As the founder of Ada Nomad, I lead a cutting-edge software consulting
- firm focused on AI and technological innovations.
- My journey from Silicon Valley to founding Ada Nomad has been fueled by
- a passion for pioneering in artificial intelligence and software development.
- I'm deeply involved in setting our strategic direction, building key partnershi
-ps, and ensuring excellence in all our projects.
+Lead AI consulting firm specializing in LLM integration and workflow automation.
+ Design and implement custom AI solutions for clients using RAG, fine-tuning,
+ and prompt engineering.
+ Manage remote teams to deliver full-stack AI-powered applications.
  
 \end_layout
 
-\begin_layout Itemize
-Co-Founder CrystalTrade Technical Trader September 2022 — March 2023
-\end_layout
-
 \begin_layout Standard
-Trades from technical analysis on financial instruments such as options,
- earnings reports, and volatility analysis.
- Our technologies include bare metal hardware and cloud deployments, blockchain
- infrastructures, database migrations and administration with SQLite/Postgres,
- fullstack React, and stock / options data analysis in Python with Pandas,
- NumPy, Tensorflow.
- Trading strategies utilizing data science and machine learning to analyze
- data faster than the general public.
-\end_layout
-
-\begin_layout Itemize
-Co-Founder 
+Adanomad is an software consulting agency that develops full stack websites,
+ data processing pipelines, and developed a platform
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Roamverse"
-target "https://roamverse.io/"
+name "AceTeam.AI"
+target "https://aceteam.ai/"
 literal "false"
 
 \end_inset
 
 
 \emph default
- October 2021 — November 2022
-\end_layout
-
-\begin_layout Standard
-Created a collection of NFT art and stakepool operator on the Cardano blockchain.
- Projects around building a metaverse for roamers and digital nomads on
- the Cardano blockchain.
+ for creating AI agents that can be embedded on the customer's own website
+ as a chatbox.
+ Worked with Next.js, LangChain, Postgres (Supabase), numerous LLMs / VLMs.
+ Fine-tuned models, preparing datasets, consulting and advising with clients
+ directly to develop AI processing pipeline.
 \end_layout
 
 \begin_layout Itemize
@@ -362,13 +318,12 @@ Amazon Lab 126
 \end_layout
 
 \begin_layout Standard
-Develop the Amazon Astro, a home robot that enables Alexa to take a physical
- form and have mobility.
- Also developed platform infrastructure on a real time mapping pipeline
- and worked on the product for over two years, from prototype to production.
- Used ROS, C++, Python, Java, and full stack web technologies.
- Mentored engineers and interns, creating new architectures and driving
- cross functional team features.
+Core member on Amazon Astro is a home robot that enables Alexa to take a
+ physical form and have mobility.
+ Led platform mapping infrastructure on a real time mapping pipeline from
+ prototype to production.
+ Worked with ROS, C++, Python, Java, and full stack web.
+ Mentored interns and engineers and drove cross-functional team developments.
 \end_layout
 
 \begin_layout Itemize
@@ -389,17 +344,22 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
+Early engineer at self-driving car startup, growing from 10 to 150+ employees.
+ Developed point cloud processing and large-scale mapping infrastructure.
+ Led full-stack autonomous system integration efforts.
+\end_layout
+
+\begin_layout Standard
 HD mapping infrastructure working with point clouds for large scale map
- building used in localization, with Hadoop.
+ building used in localization.
  
 \end_layout
 
 \begin_layout Standard
-Lead efforts to build API backend for location-based delivery service AutoX
- apps.
+Lead efforts to build API backend for location-based delivery service apps.
  GraphQL, Node.js, React.
- General architect role, lead team efforts to design and integrate tech
- stacks for product feature development using C++, Python, Javascript.
+ Lead team efforts to design and integrate tech stacks for product feature
+ development using C++, Python, Javascript.
  Full-stack autonomous system integration, low/high-speed delivery vehicles.
  
 \end_layout
