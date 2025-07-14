@@ -101,10 +101,11 @@ literal "false"
 
 \size small
 \begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="4">
+<lyxtabular version="3" rows="1" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <row>
@@ -119,23 +120,6 @@ LatexCommand href
 name "sunapi386@gmail.com"
 target "sunapi386@gmail.com?subject=Jason%20Resume"
 type "mailto:"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "sunapi386.ca"
-target "https://sunapi386.ca"
 literal "false"
 
 \end_inset
@@ -169,6 +153,32 @@ literal "false"
 
 \size small
 +1 (408) 599-0428
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+San Jose, CA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "sunapi386.ca"
+target "https://sunapi386.ca"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -245,8 +255,8 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-Lead a team of 6 developing AI-powered solutions for enterprise clients
- 
+Manage high-performing teams of engineers and research scientists developing
+ AI solutions clients 
 \end_layout
 
 \begin_layout Itemize
@@ -260,7 +270,7 @@ Mentor and coach team members while managing client relationships and project
 
 \end_deeper
 \begin_layout Itemize
-Software Engineer 
+Robotics Software Engineer 
 \begin_inset CommandInset href
 LatexCommand href
 name "Amazon Lab126"
@@ -275,17 +285,13 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-Led platform mapping team for Amazon Astro home robot initiative
+Worked on Amazon Astro robot, real-time platform mapping infrastructure
+ architecture
 \end_layout
 
 \begin_layout Itemize
-Drove cross-functional collaboration between hardware, software, and product
- teams
-\end_layout
-
-\begin_layout Itemize
-Managed technical roadmap and architecture decisions for real-time mapping
- infrastructure
+Drove cross-functional architecture collaboration between hardware, software,
+ and product teams
 \end_layout
 
 \begin_layout Itemize
@@ -294,12 +300,12 @@ Mentored junior engineers and interns, conducting performance reviews and
 \end_layout
 
 \begin_layout Itemize
-Tech stack: ROS, C++, Python, Java, full-stack web development 
+ROS (Robot Operating System), C++, Python, Java, and full-stack web
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Autonomous Systems Engineer 
+Autonomous Systems Software Engineer 
 \emph on
 
 \begin_inset CommandInset href
@@ -318,6 +324,11 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
+Developed self driving vehicle systems from concept to prototypes in an
+ ambiguous and rapidly evolving research and product
+\end_layout
+
+\begin_layout Itemize
 Early engineer (#10) at Seed to Series A self-driving car startup, contributing
  to growth from 10 to 150+ employees 
 \end_layout
@@ -333,17 +344,13 @@ Built HD mapping and point cloud processing infrastructure for autonomous
 \end_layout
 
 \begin_layout Itemize
-Architected and scaled autonomous vehicle systems from concept to prototypes
-\end_layout
-
-\begin_layout Itemize
 Managed technical integration between multiple teams (perception, planning,
  controls)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Software Engineer 
+Software Engineer, iPhone Hardware Reliability Software 
 \emph on
 
 \begin_inset CommandInset href
