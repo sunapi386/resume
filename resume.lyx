@@ -8,6 +8,16 @@
 \begin_preamble
 \usepackage[en-US]{datetime2}
 \DTMlangsetup[en-US]{showdayofmonth=true}
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=2pt, parsep=1pt, left=0pt, topsep=4pt}
+\setlist[itemize,2]{itemsep=1pt, parsep=0pt, left=8pt, topsep=2pt}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\small\thepage}
+\fancyfoot[L]{\small Compiled \today}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -53,7 +63,7 @@
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 1
 \use_minted 0
@@ -61,10 +71,10 @@
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 1in
-\topmargin 1in
-\rightmargin 1in
-\bottommargin 1in
+\leftmargin 0.6in
+\topmargin 0.5in
+\rightmargin 0.6in
+\bottommargin 0.5in
 \secnumdepth -1
 \tocdepth 3
 \paragraph_separation indent
@@ -88,7 +98,7 @@
 \begin_layout Title
 \begin_inset CommandInset href
 LatexCommand href
-name "Jason Sun's Resume"
+name "Jason Sun"
 target "https://github.com/sunapi386/resume/blob/master/resume.pdf"
 literal "false"
 
@@ -161,7 +171,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-San Jose, CA
+San Jose, CA / Toronto, ON
 \end_layout
 
 \end_inset
@@ -196,39 +206,20 @@ Profile
 \end_layout
 
 \begin_layout Standard
-Senior Software Engineering Leader with 10+ years of experience building
- and scaling AI/ML systems and leading high-performance engineering teams.
- Proven track record of driving technical strategy and delivering complex
- projects in fast-paced environments from early-stage startups to Fortune
- 500 companies.
- Led multiple teams of 5-15 engineers while managing stakeholder relationships
- and mentoring junior talent.
- 
+Technical founder with 10+ years building production AI systems across startups and Fortune 500 companies (Apple, Amazon, AutoX).
+ Runs an AI consulting practice that embeds engineers into client organizations to ship agent systems on customer infrastructure — from initial audit through production deployment and team handoff.
+ Focus on safety, accountability, and data sovereignty.
+ Open to relocation; based in San Jose and Toronto.
+
 \end_layout
 
-\begin_layout Itemize
-Technical Leadership & Team Management: Led cross-functional teams of 5-15
- engineers, mentored junior developers, managed hiring/performance reviews
- 
-\end_layout
+\begin_layout Standard
 
-\begin_layout Itemize
-AI/ML Systems: Production experience with LLMs, RAG, AI agents, computer
- vision, and autonomous systems 
-\end_layout
-
-\begin_layout Itemize
-Architecture & System Design: Designed and scaled distributed systems handling
- millions of requests
-\end_layout
-
-\begin_layout Itemize
-Full-stack Development: React, Next.js, TypeScript, GraphQL, Python, C++
- 
-\end_layout
-
-\begin_layout Itemize
-Cloud & Infrastructure: AWS, GCP, Azure, Kubernetes, Docker
+\size small
+\series bold
+Technical:
+\series default
+ Python, Go, C++, TypeScript | LLMs, AI Agents, Computer Vision, Autonomous Systems | Kubernetes, Docker, AWS, GCP | WireGuard, GPU Orchestration, Sovereign Compute
 \end_layout
 
 \begin_layout Subsection*
@@ -236,13 +227,13 @@ Work Experience
 \end_layout
 
 \begin_layout Itemize
-Principal & Technical Consultant 
+Founder & Principal Engineer 
 \emph on
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Adanomad Consulting"
-target "https://adanomad.com/"
+name "AceTeam / Ada Nomad"
+target "https://aceteam.ai/"
 literal "false"
 
 \end_inset
@@ -250,22 +241,36 @@ literal "false"
 
 \emph default
  Mar.
- 2023 – present 
+ 2023 – present
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Manage high-performing teams of engineers and research scientists developing
- AI solutions clients 
+Embedded into a 30-person network observability company as a technical advisor: audited their 7-product ML pipeline across 192 dimensions of signal data, identified that ML nodes were empty stubs with no trained models, designed a 4-model production architecture (Isolation Forest, Mamba VAE, XGBoost, Graph CNN), and delivered a gap analysis with 6 critical findings.
+
 \end_layout
 
 \begin_layout Itemize
-Established technical direction and architecture for multiple client projects
+Scoped and delivered 3 AI agent skills on customer self-hosted infrastructure in 3 weeks.
+ Credentials stay entirely on client side of trust boundary.
+
 \end_layout
 
 \begin_layout Itemize
-Mentor and coach team members while managing client relationships and project
- deliverables 
+Consulted for a legal technology startup on AI-powered contract analysis: designed two-pass extraction architecture for legal document review (edit existing clauses against regulatory playbooks, then identify missing provisions), built semantic search pipeline with vector DB and LLM embeddings for clause-to-rule matching, and optimized deal point extraction accuracy for a pilot with a global management consulting firm.
+
+\end_layout
+
+\begin_layout Itemize
+Delivered AI agent workshops to 150+ business and MBA students at San Jose State University (Lucas School of Business).
+ Scaling to additional California State University campuses.
+
+\end_layout
+
+\begin_layout Itemize
+Research collaboration with University of Waterloo (Mitacs) on calibrated confidence scoring for AI safety.
+ Team of 2 engineers, 9 interns to date.
+
 \end_layout
 
 \end_deeper
@@ -285,22 +290,26 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-Worked on Amazon Astro robot, real-time platform mapping infrastructure
- architecture
+Core team that shipped Amazon Astro home robot from prototype to production consumer product.
+ Architected the real-time mapping and perception pipeline that enables autonomous navigation.
+
 \end_layout
 
 \begin_layout Itemize
-Drove cross-functional architecture collaboration between hardware, software,
- and product teams
+Hardened prototype systems into production-grade infrastructure: designed resilience, failure recovery, and scalability patterns for real-time SLAM and sensor fusion.
+
 \end_layout
 
 \begin_layout Itemize
-Mentored junior engineers and interns, conducting performance reviews and
- career development 
+Coordinated across hardware, software, and product teams to resolve cross-system integration issues.
+ Mentored junior engineers and interns.
+
 \end_layout
 
 \begin_layout Itemize
-ROS (Robot Operating System), C++, Python, Java, and full-stack web
+ROS, C++, Python, Java, full-stack web.
+ Built internal dashboards for fleet monitoring and debugging.
+
 \end_layout
 
 \end_deeper
@@ -310,8 +319,8 @@ Autonomous Systems Software Engineer
 
 \begin_inset CommandInset href
 LatexCommand href
-name "AutoX Technologies Inc."
-target "http://autox.ai"
+name "AutoX Technologies Inc. (now Tensor Auto)"
+target "https://www.tensor.auto/"
 literal "false"
 
 \end_inset
@@ -324,28 +333,20 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-Developed self driving vehicle systems from concept to prototypes in an
- ambiguous and rapidly evolving research and product
+Managed technical integration across perception, planning, and controls teams.
+ Developed hybrid human-AI decision systems for edge cases.
+
 \end_layout
 
 \begin_layout Itemize
-Early engineer (#10) at Seed to Series A self-driving car startup, contributing
- to growth from 10 to 150+ employees 
+Early engineer (#10) at self-driving car startup through Seed to Series A; company grew from 10 to 150+ employees.
+
 \end_layout
 
 \begin_layout Itemize
-Led team of 6 engineers building vehicle to cloud apps infrastructure, using
- C++, Python, GraphQL, Node.js, React
-\end_layout
+Led team of 6 engineers building vehicle-to-cloud infrastructure (C++, Python, GraphQL, Node.js, React).
+ Built HD mapping and point cloud processing for autonomous vehicle localization.
 
-\begin_layout Itemize
-Built HD mapping and point cloud processing infrastructure for autonomous
- vehicle localization 
-\end_layout
-
-\begin_layout Itemize
-Managed technical integration between multiple teams (perception, planning,
- controls)
 \end_layout
 
 \end_deeper
@@ -370,46 +371,20 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-New graduate hire into iOS device management team 
+Architected and built full-stack website (Rails API, Ember.js, nginx, MySQL) for managing iOS device fleet across multiple product lines.
 \end_layout
 
 \begin_layout Itemize
-Architected and built full-stack website (Rails API, Ember.js, nginx, MySQL)
- for managing iOS device fleet 
+Built client-side task runners for automated test distribution and internal iOS/macOS applications (Swift, Objective-C).
 \end_layout
 
 \begin_layout Itemize
-Developed client-side task runners for automated test distribution 
-\end_layout
-
-\begin_layout Itemize
-Created internal iOS and macOS applications using Swift and Objective-C
- 
-\end_layout
-
-\begin_layout Itemize
-Improved reliability tools used across multiple product lines 
+Improved hardware reliability tooling used across iPhone product lines.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Undergrad Research Assistant at University of Waterloo in May 2015 — September
- 2015 in Waterloo, Ontario
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Collaborated with AI professor and research team on NLP chatbot project
-\end_layout
-
-\begin_layout Itemize
-Built prototype for customer support chat suggestions using Apache Lucene
- and TF-IDF
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Software Engineer Intern 
+Software Engineer Intern, 
 \emph on
 
 \begin_inset CommandInset href
@@ -427,22 +402,12 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-Designed and implemented distributed REST API service using Java/Scala and
- Apache Cassandra 
-\end_layout
-
-\begin_layout Itemize
-Created network load testing framework for distributed image hosting service
- 
-\end_layout
-
-\begin_layout Itemize
-Worked with platform team on high-throughput system architecture 
+Distributed REST API (Java/Scala, Cassandra) and network load testing for image hosting platform
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Software Developer at 
+Software Developer, 
 \emph on
 
 \begin_inset CommandInset href
@@ -461,13 +426,7 @@ literal "false"
 
 \begin_deeper
 \begin_layout Itemize
-First engineer intern fullstack web developer in the Velocity Garage startup
- building insurance claims platform 
-\end_layout
-
-\begin_layout Itemize
-Built REST APIs with Python/Tornado and developed hybrid mobile apps (iOS/Androi
-d) 
+First engineering intern at Velocity Garage startup; fullstack web (Python/Tornado) and hybrid mobile apps
 \end_layout
 
 \end_deeper
@@ -479,37 +438,7 @@ Software Tools Developer Intern at RIM (BlackBerry) in Sept.
 
 \begin_deeper
 \begin_layout Itemize
-Enhanced GitLab features (Ruby on Rails) and Github to GitLab migration
- 
-\end_layout
-
-\begin_layout Itemize
-Built automated UI testing framework using Selenium WebDriver 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Physics Teaching Assistant at
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "Wilfrid Laurier University"
-target "http://www.wlu.ca/"
-literal "false"
-
-\end_inset
-
-
-\emph default
- in September 2011 - April 2012 in Waterloo, Ontario
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Developed a spectrometer reading program in Python using the pySerial library
- to automate the reading of lab samples and generate a spreadsheet file.
- 
+GitLab feature development (Ruby on Rails), GitHub-to-GitLab migration, Selenium test automation
 \end_layout
 
 \end_deeper
@@ -530,14 +459,10 @@ literal "false"
 
 
 \emph default
- Bachelor of Computer Science.
- 
-\end_layout
-
-\begin_layout Itemize
-Exchange at
+ — Honours Bachelor of Computer Science, 2015.
+ Exchange semester at 
 \emph on
- 
+
 \begin_inset CommandInset href
 LatexCommand href
 name "EPFL (Swiss Federal Institute of Technology at Lausanne)"
@@ -546,7 +471,65 @@ literal "false"
 
 \end_inset
 
+\emph default
 .
+\end_layout
+
+\begin_layout Subsection*
+Speaking & Community
+\end_layout
+
+\begin_layout Itemize
+Speaker, Upper Bound Conference (Edmonton, May 2026) — "Accountable Agents: A Protocol for Trust in Autonomous AI"
+\end_layout
+
+\begin_layout Itemize
+AI Agent Workshop Series, San Jose State University (Mar–Apr 2026) — 3-session series teaching agentic workflows to 150+ business students through hands-on deployment exercises
+\end_layout
+
+\begin_layout Itemize
+AccelerateGov Summit (Ottawa, Dec 2025) — federal AI policy conference; engaged with federal ministers on Canada's AI infrastructure investment strategy
+\end_layout
+
+\begin_layout Itemize
+GovAI Coalition — member of US-based public sector AI governance community; attended annual conference (San Jose, Nov 2025)
+\end_layout
+
+\begin_layout Itemize
+McMaster University AI Advisory Committee (forming) — invited by Associate Dean to advise DeGroote School of Business on AI curriculum and industry engagement strategy
+\end_layout
+
+\begin_layout Subsection*
+Open Source
+\end_layout
+
+\begin_layout Itemize
+Workflow Engine — open-source agentic workflow runtime with distributed node sources and PIP-style package management.
+ github.com/aceteam-ai/workflow-engine
+\end_layout
+
+\begin_layout Itemize
+Citadel CLI — on-premise agent and CLI for sovereign compute fabric.
+ Auto-detect GPU hardware, WireGuard mesh enrollment, tag-based job routing.
+ github.com/aceteam-ai/citadel-cli
+\end_layout
+
+\begin_layout Itemize
+Ace CLI — local-first AI workflow runner.
+ TypeScript.
+ github.com/aceteam-ai/ace
+\end_layout
+
+\begin_layout Itemize
+AEP (Agentic Execution Protocol) — open-source accountability layer for AI agent workflows.
+ Vendor-neutral, A2A-compatible.
+ github.com/aceteam-ai/aceteam
+\end_layout
+
+\begin_layout Itemize
+SafeClaw — safe-by-default AI agent with AEP safety enforcement built in.
+ Tiered autonomy, recursive cost tracking, provenance chains.
+ github.com/aceteam-ai/safeclaw
 \end_layout
 
 \end_body
